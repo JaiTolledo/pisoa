@@ -1,0 +1,289 @@
+CRITICAL - 2023-11-21 18:29:32 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 38.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 38)
+ 2 APPPATH\Controllers\ApiAppController.php(38): exif_read_data('C:\\xampp\\tmp\\php64F9.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 18:29:33 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 38.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 38)
+ 2 APPPATH\Controllers\ApiAppController.php(38): exif_read_data('C:\\xampp\\tmp\\php6C1E.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 18:29:45 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 38.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 38)
+ 2 APPPATH\Controllers\ApiAppController.php(38): exif_read_data('C:\\xampp\\tmp\\php98CD.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 18:29:46 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 38.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 38)
+ 2 APPPATH\Controllers\ApiAppController.php(38): exif_read_data('C:\\xampp\\tmp\\php9DBF.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:28:19 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 46.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 46)
+ 2 APPPATH\Controllers\ApiAppController.php(46): exif_read_data('C:\\xampp\\tmp\\php38A9.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:28:21 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 46.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 46)
+ 2 APPPATH\Controllers\ApiAppController.php(46): exif_read_data('C:\\xampp\\tmp\\php3FBE.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:29:17 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 34)
+ 2 APPPATH\Controllers\ApiAppController.php(34): exif_read_data('C:\\xampp\\tmp\\php1A8F.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:29:18 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 34)
+ 2 APPPATH\Controllers\ApiAppController.php(34): exif_read_data('C:\\xampp\\tmp\\php1F62.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:32:15 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 34)
+ 2 APPPATH\Controllers\ApiAppController.php(34): exif_read_data('C:\\xampp\\tmp\\phpD02B.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:32:16 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 34)
+ 2 APPPATH\Controllers\ApiAppController.php(34): exif_read_data('C:\\xampp\\tmp\\phpD58B.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:39:59 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 34)
+ 2 APPPATH\Controllers\ApiAppController.php(34): exif_read_data('C:\\xampp\\tmp\\phpE77D.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:41:59 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 34)
+ 2 APPPATH\Controllers\ApiAppController.php(34): exif_read_data('C:\\xampp\\tmp\\phpBB06.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:42:00 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 34)
+ 2 APPPATH\Controllers\ApiAppController.php(34): exif_read_data('C:\\xampp\\tmp\\phpBFBA.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:42:01 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 34)
+ 2 APPPATH\Controllers\ApiAppController.php(34): exif_read_data('C:\\xampp\\tmp\\phpC364.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:42:25 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 34)
+ 2 APPPATH\Controllers\ApiAppController.php(34): exif_read_data('366055981_853991753110661_8242368477718644342_n_28.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:42:26 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 34)
+ 2 APPPATH\Controllers\ApiAppController.php(34): exif_read_data('366055981_853991753110661_8242368477718644342_n_29.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:42:27 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 34)
+ 2 APPPATH\Controllers\ApiAppController.php(34): exif_read_data('366055981_853991753110661_8242368477718644342_n_30.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:43:30 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 34)
+ 2 APPPATH\Controllers\ApiAppController.php(34): exif_read_data('366055981_853991753110661_8242368477718644342_n_31.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:43:32 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 34)
+ 2 APPPATH\Controllers\ApiAppController.php(34): exif_read_data('366055981_853991753110661_8242368477718644342_n_32.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:43:35 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 34)
+ 2 APPPATH\Controllers\ApiAppController.php(34): exif_read_data('366055981_853991753110661_8242368477718644342_n_33.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:43:36 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 34)
+ 2 APPPATH\Controllers\ApiAppController.php(34): exif_read_data('366055981_853991753110661_8242368477718644342_n_34.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:43:36 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 34)
+ 2 APPPATH\Controllers\ApiAppController.php(34): exif_read_data('366055981_853991753110661_8242368477718644342_n_35.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:43:40 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 34)
+ 2 APPPATH\Controllers\ApiAppController.php(34): exif_read_data('366055981_853991753110661_8242368477718644342_n_36.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:44:28 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 46.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 46)
+ 2 APPPATH\Controllers\ApiAppController.php(46): exif_read_data('366055981_853991753110661_8242368477718644342_n_37.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:44:29 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 46.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 46)
+ 2 APPPATH\Controllers\ApiAppController.php(46): exif_read_data('366055981_853991753110661_8242368477718644342_n_38.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:44:41 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 46.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 46)
+ 2 APPPATH\Controllers\ApiAppController.php(46): exif_read_data('C:\\xampp\\tmp\\php3319.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:44:42 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 46.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 46)
+ 2 APPPATH\Controllers\ApiAppController.php(46): exif_read_data('C:\\xampp\\tmp\\php378E.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:50:02 --> Unsupported operand types: string + CodeIgniter\HTTP\Files\UploadedFile
+in APPPATH\Controllers\ApiAppController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:50:19 --> Unsupported operand types: string + string
+in APPPATH\Controllers\ApiAppController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:50:20 --> Unsupported operand types: string + string
+in APPPATH\Controllers\ApiAppController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:51:28 --> Unsupported operand types: string + string
+in APPPATH\Controllers\ApiAppController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:51:30 --> Unsupported operand types: string + string
+in APPPATH\Controllers\ApiAppController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:53:30 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 48.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 48)
+ 2 APPPATH\Controllers\ApiAppController.php(48): exif_read_data('./assets/uploads366055981_853991753110661_8242368477718644342_n_47.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:53:34 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 48.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 48)
+ 2 APPPATH\Controllers\ApiAppController.php(48): exif_read_data('./assets/uploads366055981_853991753110661_8242368477718644342_n_48.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:53:35 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 48.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 48)
+ 2 APPPATH\Controllers\ApiAppController.php(48): exif_read_data('./assets/uploads366055981_853991753110661_8242368477718644342_n_49.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:53:54 --> Call to undefined function App\Controllers\getGps()
+in APPPATH\Controllers\ApiAppController.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 20:33:07 --> Call to undefined function App\Controllers\getGps()
+in APPPATH\Controllers\ApiAppController.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 23:31:07 --> Trying to access array offset on value of type bool
+in APPPATH\Controllers\ApiAppController.php on line 51.
+ 1 APPPATH\Controllers\ApiAppController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type bool', 'APPPATH\\Controllers\\ApiAppController.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

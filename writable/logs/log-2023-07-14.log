@@ -1,0 +1,83 @@
+CRITICAL - 2023-07-14 00:46:11 --> Undefined variable $type
+in APPPATH/Controllers/Padron.php on line 134.
+ 1 APPPATH/Controllers/Padron.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $type', 'APPPATH/Controllers/Padron.php', 134)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Padron->proveedoresgetByType('1')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padron))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 00:47:38 --> Undefined variable $type
+in APPPATH/Controllers/Padron.php on line 134.
+ 1 APPPATH/Controllers/Padron.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $type', 'APPPATH/Controllers/Padron.php', 134)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Padron->proveedoresgetByType('1')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padron))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 00:49:35 --> Undefined variable $type
+in APPPATH/Controllers/Padron.php on line 134.
+ 1 APPPATH/Controllers/Padron.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $type', 'APPPATH/Controllers/Padron.php', 134)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Padron->proveedoresgetByType('1')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padron))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 00:49:45 --> Undefined variable $type
+in APPPATH/Controllers/Padron.php on line 134.
+ 1 APPPATH/Controllers/Padron.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $type', 'APPPATH/Controllers/Padron.php', 134)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Padron->proveedoresgetByType('1')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padron))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 00:52:16 --> foreach() argument must be of type array|object, null given
+in APPPATH/Models/PadronModel.php on line 54.
+ 1 APPPATH/Models/PadronModel.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH/Models/PadronModel.php', 54)
+ 2 APPPATH/Controllers/Padron.php(90): App\Models\PadronModel->modify([...], '7', null)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Padron->register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padron))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 00:52:20 --> foreach() argument must be of type array|object, null given
+in APPPATH/Models/PadronModel.php on line 54.
+ 1 APPPATH/Models/PadronModel.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH/Models/PadronModel.php', 54)
+ 2 APPPATH/Controllers/Padron.php(90): App\Models\PadronModel->modify([...], '7', null)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Padron->register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padron))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 00:53:01 --> foreach() argument must be of type array|object, null given
+in APPPATH/Models/PadronModel.php on line 54.
+ 1 APPPATH/Models/PadronModel.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH/Models/PadronModel.php', 54)
+ 2 APPPATH/Controllers/Padron.php(90): App\Models\PadronModel->modify([...], '7', null)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Padron->register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padron))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 00:53:16 --> foreach() argument must be of type array|object, null given
+in APPPATH/Models/PadronModel.php on line 54.
+ 1 APPPATH/Models/PadronModel.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH/Models/PadronModel.php', 54)
+ 2 APPPATH/Controllers/Padron.php(90): App\Models\PadronModel->modify([...], '7', null)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Padron->register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padron))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 20:04:20 --> syntax error, unexpected token "return"
+in APPPATH/Controllers/Gerencia.php on line 24.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Gerencia.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Gerencia')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Gerencia')
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists('\\App\\Controllers\\Gerencia', true)
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 14:26:55 --> syntax error, unexpected token "public"
+in APPPATH/Models/GerenciaModel.php on line 122.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Models/GerenciaModel.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\GerenciaModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\GerenciaModel')
+ 4 SYSTEMPATH/Config/Factories.php(155): class_exists('App\\Models\\GerenciaModel')
+ 5 SYSTEMPATH/Config/Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'GerenciaModel')
+ 6 SYSTEMPATH/Config/Factories.php(86): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 7 SYSTEMPATH/Common.php(829): CodeIgniter\Config\Factories::models('GerenciaModel', [...], null)
+ 8 APPPATH/Controllers/Gerencia.php(13): model('GerenciaModel')
+ 9 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Gerencia->__construct()
+10 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

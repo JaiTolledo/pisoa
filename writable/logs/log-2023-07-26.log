@@ -1,0 +1,22 @@
+CRITICAL - 2023-07-26 00:03:38 --> Undefined variable $contratistas
+in APPPATH/Views/portada/portafolio_principal.php on line 408.
+ 1 APPPATH/Views/portada/portafolio_principal.php(408): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contratistas', 'APPPATH/Views/portada/portafolio_principal.php', 408)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/portada/portafolio_principal.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('portada/portafolio_principal', [], true)
+ 5 APPPATH/Controllers/Portada.php(158): view('portada/portafolio_principal', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Portada->ejeReparacion()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portada))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-26 00:03:47 --> Undefined variable $contratistas
+in APPPATH/Views/portada/portafolio_principal.php on line 408.
+ 1 APPPATH/Views/portada/portafolio_principal.php(408): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contratistas', 'APPPATH/Views/portada/portafolio_principal.php', 408)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/portada/portafolio_principal.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('portada/portafolio_principal', [], true)
+ 5 APPPATH/Controllers/Portada.php(198): view('portada/portafolio_principal', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Portada->ejePacto()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portada))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

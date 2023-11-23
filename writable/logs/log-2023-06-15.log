@@ -1,0 +1,29 @@
+CRITICAL - 2023-06-15 23:40:15 --> Attempt to assign property "avance" on null
+in APPPATH/Models/CapturaModel.php on line 39.
+ 1 APPPATH/Controllers/Captura.php(24): App\Models\CapturaModel->getAll(2023)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captura->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Captura))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 23:41:09 --> Attempt to assign property "num" on null
+in APPPATH/Models/CapturaModel.php on line 40.
+ 1 APPPATH/Controllers/Captura.php(24): App\Models\CapturaModel->getAll(2023)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captura->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Captura))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 23:42:30 --> Undefined property: stdClass::$fecha_termino
+in APPPATH/Models/CapturaModel.php on line 35.
+ 1 APPPATH/Models/CapturaModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$fecha_termino', 'APPPATH/Models/CapturaModel.php', 35)
+ 2 APPPATH/Controllers/Captura.php(24): App\Models\CapturaModel->getAll(2023)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captura->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Captura))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 23:46:30 --> Class "App\Models\DateTime" not found
+in APPPATH/Models/CapturaModel.php on line 37.
+ 1 APPPATH/Controllers/Captura.php(24): App\Models\CapturaModel->getAll(2023)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captura->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Captura))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

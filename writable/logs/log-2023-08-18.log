@@ -1,0 +1,83 @@
+CRITICAL - 2023-08-18 18:07:16 --> Class "App\Controllers\BaseController" not found
+in APPPATH\Controllers\Home.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 18:08:24 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(24): CodeIgniter\Model->__call('getFiltersMin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->planeacion('vertiente')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 20:02:02 --> Call to a member function search_bank_list() on null
+in APPPATH\Controllers\Bitacora.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bitacora->bitacora()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bitacora))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 20:03:30 --> Call to a member function getmunicipios() on null
+in APPPATH\Controllers\Bitacora.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bitacora->bitacora()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bitacora))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 20:05:24 --> Call to a member function getmunicipios() on null
+in APPPATH\Controllers\Bitacora.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bitacora->bitacora()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bitacora))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 20:05:32 --> Call to a member function getmunicipios() on null
+in APPPATH\Controllers\Bitacora.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bitacora->bitacora()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bitacora))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 20:18:22 --> Call to a member function getmunicipios() on null
+in APPPATH\Controllers\Bitacora.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bitacora->bitacora()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bitacora))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 20:18:24 --> Call to a member function getmunicipios() on null
+in APPPATH\Controllers\Bitacora.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bitacora->bitacora()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bitacora))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 20:21:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH\Models\MunicipioModel.php on line 15.
+ 1 APPPATH\Controllers\Bitacora.php(17): App\Models\MunicipioModel->getmunicipios()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bitacora->bitacora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bitacora))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 20:22:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH\Models\MunicipioModel.php on line 15.
+ 1 APPPATH\Controllers\Bitacora.php(17): App\Models\MunicipioModel->getmunicipios()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bitacora->bitacora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bitacora))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 20:23:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::rows()
+in APPPATH\Models\MunicipioModel.php on line 15.
+ 1 APPPATH\Controllers\Bitacora.php(17): App\Models\MunicipioModel->getmunicipios()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bitacora->bitacora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bitacora))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 20:23:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH\Models\MunicipioModel.php on line 15.
+ 1 APPPATH\Controllers\Bitacora.php(17): App\Models\MunicipioModel->getmunicipios()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bitacora->bitacora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bitacora))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

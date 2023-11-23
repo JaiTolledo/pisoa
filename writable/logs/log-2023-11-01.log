@@ -1,0 +1,503 @@
+ERROR - 2023-11-01 22:12:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+           where datos_generales=enviado) as enviado 
+           from cap...' at line 11 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('select *, (sele...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select *, (sele...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select *, (sele...')
+#3 C:\xampp\htdocs\app\app\Models\CapturasModel.php(82): CodeIgniter\Database\BaseConnection->query('select *, (sele...')
+#4 C:\xampp\htdocs\app\app\Controllers\Capturas.php(37): App\Models\CapturasModel->expedientecaptura()
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\Capturas->listarcapturas()
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capturas))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-01 22:12:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+           where datos_generales=enviado) as enviado 
+           from cap...' at line 11
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\CapturasModel.php(82): CodeIgniter\Database\BaseConnection->query('select *, (select count(datos_generales) 
+        from captura 
+        where datos_generales=revisado) as revisado,
+        (select count(datos_generales) 
+         from captura 
+         where datos_generales=pendiente) as pendiente, 
+         (select count(datos_generales) 
+          from captura 
+          where datos_generales=observado) as observado,
+          (select count(datos_generales) 
+           from captura \'
+           where datos_generales=enviado) as enviado 
+           from captura 
+           INNER JOIN universo on captura.obra=universo.universo_id 
+           GROUP by universo.categoria')
+ 2 APPPATH\Controllers\Capturas.php(37): App\Models\CapturasModel->expedientecaptura()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Capturas->listarcapturas()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capturas))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-01 22:13:47 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+           where datos_generales=enviado) as enviado 
+           from cap...' at line 11 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('select *, (sele...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select *, (sele...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select *, (sele...')
+#3 C:\xampp\htdocs\app\app\Models\CapturasModel.php(82): CodeIgniter\Database\BaseConnection->query('select *, (sele...')
+#4 C:\xampp\htdocs\app\app\Controllers\Capturas.php(37): App\Models\CapturasModel->expedientecaptura()
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\Capturas->listarcapturas()
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capturas))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-01 22:13:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+           where datos_generales=enviado) as enviado 
+           from cap...' at line 11
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\CapturasModel.php(82): CodeIgniter\Database\BaseConnection->query('select *, (select count(datos_generales) 
+        from captura 
+        where datos_generales=revisado) as revisado,
+        (select count(datos_generales) 
+         from captura 
+         where datos_generales=pendiente) as pendiente, 
+         (select count(datos_generales) 
+          from captura 
+          where datos_generales=observado) as observado,
+          (select count(datos_generales) 
+           from captura \'
+           where datos_generales=enviado) as enviado 
+           from captura 
+           INNER JOIN universo on captura.obra=universo.universo_id 
+           GROUP by universo.categoria')
+ 2 APPPATH\Controllers\Capturas.php(37): App\Models\CapturasModel->expedientecaptura()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Capturas->listarcapturas()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capturas))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-01 22:13:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+           where datos_generales=enviado) as enviado 
+           from cap...' at line 11 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('select *, (sele...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select *, (sele...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select *, (sele...')
+#3 C:\xampp\htdocs\app\app\Models\CapturasModel.php(82): CodeIgniter\Database\BaseConnection->query('select *, (sele...')
+#4 C:\xampp\htdocs\app\app\Controllers\Capturas.php(37): App\Models\CapturasModel->expedientecaptura()
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\Capturas->listarcapturas()
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capturas))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-01 22:13:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+           where datos_generales=enviado) as enviado 
+           from cap...' at line 11
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\CapturasModel.php(82): CodeIgniter\Database\BaseConnection->query('select *, (select count(datos_generales) 
+        from captura 
+        where datos_generales=revisado) as revisado,
+        (select count(datos_generales) 
+         from captura 
+         where datos_generales=pendiente) as pendiente, 
+         (select count(datos_generales) 
+          from captura 
+          where datos_generales=observado) as observado,
+          (select count(datos_generales) 
+           from captura \'
+           where datos_generales=enviado) as enviado 
+           from captura 
+           INNER JOIN universo on captura.obra=universo.universo_id 
+           GROUP by universo.categoria')
+ 2 APPPATH\Controllers\Capturas.php(37): App\Models\CapturasModel->expedientecaptura()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Capturas->listarcapturas()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capturas))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-01 22:15:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+           where datos_generales=enviado) as enviado 
+           from cap...' at line 11 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('select *, (sele...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select *, (sele...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select *, (sele...')
+#3 C:\xampp\htdocs\app\app\Models\CapturasModel.php(82): CodeIgniter\Database\BaseConnection->query('select *, (sele...')
+#4 C:\xampp\htdocs\app\app\Controllers\Capturas.php(37): App\Models\CapturasModel->expedientecaptura()
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\Capturas->listarcapturas()
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capturas))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-01 22:15:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+           where datos_generales=enviado) as enviado 
+           from cap...' at line 11
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\CapturasModel.php(82): CodeIgniter\Database\BaseConnection->query('select *, (select count(datos_generales) 
+        from captura 
+        where datos_generales=revisado) as revisado,
+        (select count(datos_generales) 
+         from captura 
+         where datos_generales=pendiente) as pendiente, 
+         (select count(datos_generales) 
+          from captura 
+          where datos_generales=observado) as observado,
+          (select count(datos_generales) 
+           from captura \'
+           where datos_generales=enviado) as enviado 
+           from captura 
+           INNER JOIN universo on captura.obra=universo.universo_id 
+           GROUP by universo.categoria')
+ 2 APPPATH\Controllers\Capturas.php(37): App\Models\CapturasModel->expedientecaptura()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Capturas->listarcapturas()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capturas))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-01 22:15:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+           where datos_generales=enviado) as enviado 
+           from cap...' at line 11 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('select *, (sele...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select *, (sele...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select *, (sele...')
+#3 C:\xampp\htdocs\app\app\Models\CapturasModel.php(82): CodeIgniter\Database\BaseConnection->query('select *, (sele...')
+#4 C:\xampp\htdocs\app\app\Controllers\Capturas.php(37): App\Models\CapturasModel->expedientecaptura()
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\Capturas->listarcapturas()
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capturas))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-01 22:15:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+           where datos_generales=enviado) as enviado 
+           from cap...' at line 11
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\CapturasModel.php(82): CodeIgniter\Database\BaseConnection->query('select *, (select count(datos_generales) 
+        from captura 
+        where datos_generales=revisado) as revisado,
+        (select count(datos_generales) 
+         from captura 
+         where datos_generales=pendiente) as pendiente, 
+         (select count(datos_generales) 
+          from captura 
+          where datos_generales=observado) as observado,
+          (select count(datos_generales) 
+           from captura \'
+           where datos_generales=enviado) as enviado 
+           from captura 
+           INNER JOIN universo on captura.obra=universo.universo_id 
+           GROUP by universo.categoria')
+ 2 APPPATH\Controllers\Capturas.php(37): App\Models\CapturasModel->expedientecaptura()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Capturas->listarcapturas()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capturas))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-01 22:17:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+           where datos_generales='enviado') as enviado 
+           from c...' at line 11 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('select *, (sele...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select *, (sele...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select *, (sele...')
+#3 C:\xampp\htdocs\app\app\Models\CapturasModel.php(82): CodeIgniter\Database\BaseConnection->query('select *, (sele...')
+#4 C:\xampp\htdocs\app\app\Controllers\Capturas.php(37): App\Models\CapturasModel->expedientecaptura()
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\Capturas->listarcapturas()
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capturas))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-01 22:17:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+           where datos_generales='enviado') as enviado 
+           from c...' at line 11
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\CapturasModel.php(82): CodeIgniter\Database\BaseConnection->query('select *, (select count(datos_generales) 
+        from captura 
+        where datos_generales=\'revisado\') as revisado,
+        (select count(datos_generales) 
+         from captura 
+         where datos_generales=\'pendiente\') as pendiente, 
+         (select count(datos_generales) 
+          from captura 
+          where datos_generales=\'observado\') as observado,
+          (select count(datos_generales) 
+           from captura \'
+           where datos_generales=\'enviado\') as enviado 
+           from captura 
+           INNER JOIN universo on captura.obra=universo.universo_id 
+           GROUP by universo.categoria')
+ 2 APPPATH\Controllers\Capturas.php(37): App\Models\CapturasModel->expedientecaptura()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Capturas->listarcapturas()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capturas))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-01 22:17:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+           where datos_generales='enviado') as enviado 
+           from c...' at line 11 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('select *, (sele...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select *, (sele...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select *, (sele...')
+#3 C:\xampp\htdocs\app\app\Models\CapturasModel.php(82): CodeIgniter\Database\BaseConnection->query('select *, (sele...')
+#4 C:\xampp\htdocs\app\app\Controllers\Capturas.php(37): App\Models\CapturasModel->expedientecaptura()
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\Capturas->listarcapturas()
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capturas))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-01 22:17:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+           where datos_generales='enviado') as enviado 
+           from c...' at line 11
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\CapturasModel.php(82): CodeIgniter\Database\BaseConnection->query('select *, (select count(datos_generales) 
+        from captura 
+        where datos_generales=\'revisado\') as revisado,
+        (select count(datos_generales) 
+         from captura 
+         where datos_generales=\'pendiente\') as pendiente, 
+         (select count(datos_generales) 
+          from captura 
+          where datos_generales=\'observado\') as observado,
+          (select count(datos_generales) 
+           from captura \'
+           where datos_generales=\'enviado\') as enviado 
+           from captura 
+           INNER JOIN universo on captura.obra=universo.universo_id 
+           GROUP by universo.categoria')
+ 2 APPPATH\Controllers\Capturas.php(37): App\Models\CapturasModel->expedientecaptura()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Capturas->listarcapturas()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capturas))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-01 22:19:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+           where datos_generales='enviado') as enviado 
+           from c...' at line 11 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('select *, (sele...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select *, (sele...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select *, (sele...')
+#3 C:\xampp\htdocs\app\app\Models\CapturasModel.php(82): CodeIgniter\Database\BaseConnection->query('select *, (sele...')
+#4 C:\xampp\htdocs\app\app\Controllers\Capturas.php(37): App\Models\CapturasModel->expedientecaptura()
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\Capturas->listarcapturas()
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capturas))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-01 22:19:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+           where datos_generales='enviado') as enviado 
+           from c...' at line 11
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\CapturasModel.php(82): CodeIgniter\Database\BaseConnection->query('select *, (select count(datos_generales) 
+        from captura 
+        where datos_generales=\'revisado\') as revisado,
+        (select count(datos_generales) 
+         from captura 
+         where datos_generales=\'pendiente\') as pendiente, 
+         (select count(datos_generales) 
+          from captura 
+          where datos_generales=\'observado\') as observado,
+          (select count(datos_generales) 
+           from captura \'
+           where datos_generales=\'enviado\') as enviado 
+           from captura 
+           INNER JOIN universo on captura.obra=universo.universo_id 
+           GROUP by universo.categoria')
+ 2 APPPATH\Controllers\Capturas.php(37): App\Models\CapturasModel->expedientecaptura()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Capturas->listarcapturas()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capturas))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-01 22:19:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+           where datos_generales='enviado') as enviado 
+           from c...' at line 11 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('select *, (sele...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select *, (sele...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select *, (sele...')
+#3 C:\xampp\htdocs\app\app\Models\CapturasModel.php(82): CodeIgniter\Database\BaseConnection->query('select *, (sele...')
+#4 C:\xampp\htdocs\app\app\Controllers\Capturas.php(37): App\Models\CapturasModel->expedientecaptura()
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\Capturas->listarcapturas()
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capturas))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-01 22:19:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+           where datos_generales='enviado') as enviado 
+           from c...' at line 11
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\CapturasModel.php(82): CodeIgniter\Database\BaseConnection->query('select *, (select count(datos_generales) 
+        from captura 
+        where datos_generales=\'revisado\') as revisado,
+        (select count(datos_generales) 
+         from captura 
+         where datos_generales=\'pendiente\') as pendiente, 
+         (select count(datos_generales) 
+          from captura 
+          where datos_generales=\'observado\') as observado,
+          (select count(datos_generales) 
+           from captura \'
+           where datos_generales=\'enviado\') as enviado 
+           from captura 
+           INNER JOIN universo on captura.obra=universo.universo_id 
+           GROUP by universo.categoria')
+ 2 APPPATH\Controllers\Capturas.php(37): App\Models\CapturasModel->expedientecaptura()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Capturas->listarcapturas()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capturas))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-01 22:20:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+           where datos_generales='enviado') as enviado 
+           from c...' at line 11 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('select *, (sele...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select *, (sele...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select *, (sele...')
+#3 C:\xampp\htdocs\app\app\Models\CapturasModel.php(82): CodeIgniter\Database\BaseConnection->query('select *, (sele...')
+#4 C:\xampp\htdocs\app\app\Controllers\Capturas.php(37): App\Models\CapturasModel->expedientecaptura()
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\Capturas->listarcapturas()
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capturas))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-01 22:20:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+           where datos_generales='enviado') as enviado 
+           from c...' at line 11
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\CapturasModel.php(82): CodeIgniter\Database\BaseConnection->query('select *, (select count(datos_generales) 
+        from captura 
+        where datos_generales=\'revisado\') as revisado,
+        (select count(datos_generales) 
+         from captura 
+         where datos_generales=\'pendiente\') as pendiente, 
+         (select count(datos_generales) 
+          from captura 
+          where datos_generales=\'observado\') as observado,
+          (select count(datos_generales) 
+           from captura \'
+           where datos_generales=\'enviado\') as enviado 
+           from captura 
+           INNER JOIN universo on captura.obra=universo.universo_id 
+           GROUP by universo.categoria')
+ 2 APPPATH\Controllers\Capturas.php(37): App\Models\CapturasModel->expedientecaptura()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Capturas->listarcapturas()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capturas))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-01 23:19:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+           where datos_generales='enviado') as enviado 
+           from c...' at line 11 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('select *, (sele...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select *, (sele...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select *, (sele...')
+#3 C:\xampp\htdocs\app\app\Models\CapturasModel.php(82): CodeIgniter\Database\BaseConnection->query('select *, (sele...')
+#4 C:\xampp\htdocs\app\app\Controllers\Capturas.php(37): App\Models\CapturasModel->expedientecaptura()
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\Capturas->listarcapturas()
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capturas))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-01 23:19:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+           where datos_generales='enviado') as enviado 
+           from c...' at line 11
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\CapturasModel.php(82): CodeIgniter\Database\BaseConnection->query('select *, (select count(datos_generales) 
+        from captura 
+        where datos_generales=\'revisado\') as revisado,
+        (select count(datos_generales) 
+         from captura 
+         where datos_generales=\'pendiente\') as pendiente, 
+         (select count(datos_generales) 
+          from captura 
+          where datos_generales=\'observado\') as observado,
+          (select count(datos_generales) 
+           from captura \'
+           where datos_generales=\'enviado\') as enviado 
+           from captura 
+           INNER JOIN universo on captura.obra=universo.universo_id 
+           GROUP by universo.categoria')
+ 2 APPPATH\Controllers\Capturas.php(37): App\Models\CapturasModel->expedientecaptura()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Capturas->listarcapturas()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capturas))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 23:28:39 --> Undefined variable $data
+in APPPATH\Views\capturas_obras.php on line 7.
+ 1 APPPATH\Views\capturas_obras.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\capturas_obras.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\capturas_obras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('capturas_obras', [], true)
+ 5 APPPATH\Controllers\Capturas.php(38): view('capturas_obras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Capturas->listarcapturas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capturas))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 23:39:48 --> Invalid file: "capturas_obras.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('capturas_obras.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('capturas_obras', [], true)
+ 3 APPPATH\Controllers\Capturas.php(38): view('capturas_obras', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Capturas->listarcapturas()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capturas))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 23:43:21 --> Invalid file: "entregable/capturas_obras.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('entregable/capturas_obras.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('entregable/capturas_obras', [], true)
+ 3 APPPATH\Controllers\Entregable.php(75): view('entregable/capturas_obras', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Entregable->pdfcapturas()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregable))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 23:44:17 --> Invalid file: "entregable/capturas_obras.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('entregable/capturas_obras.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('entregable/capturas_obras', [], true)
+ 3 APPPATH\Controllers\Entregable.php(75): view('entregable/capturas_obras', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Entregable->pdfcapturas()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregable))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 23:44:19 --> Invalid file: "entregable/capturas_obras.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('entregable/capturas_obras.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('entregable/capturas_obras', [], true)
+ 3 APPPATH\Controllers\Entregable.php(75): view('entregable/capturas_obras', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Entregable->pdfcapturas()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregable))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 23:44:21 --> Invalid file: "entregable/capturas_obras.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('entregable/capturas_obras.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('entregable/capturas_obras', [], true)
+ 3 APPPATH\Controllers\Entregable.php(75): view('entregable/capturas_obras', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Entregable->pdfcapturas()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregable))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 23:44:22 --> Invalid file: "entregable/capturas_obras.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('entregable/capturas_obras.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('entregable/capturas_obras', [], true)
+ 3 APPPATH\Controllers\Entregable.php(75): view('entregable/capturas_obras', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Entregable->pdfcapturas()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregable))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 23:44:23 --> Invalid file: "entregable/capturas_obras.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('entregable/capturas_obras.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('entregable/capturas_obras', [], true)
+ 3 APPPATH\Controllers\Entregable.php(75): view('entregable/capturas_obras', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Entregable->pdfcapturas()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregable))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 23:47:19 --> Undefined variable $mes
+in APPPATH\Views\entregables\capturas_obras.php on line 73.
+ 1 APPPATH\Views\entregables\capturas_obras.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mes', 'APPPATH\\Views\\entregables\\capturas_obras.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\entregables\\capturas_obras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('entregables/capturas_obras', [], true)
+ 5 APPPATH\Controllers\Entregable.php(75): view('entregables/capturas_obras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Entregable->pdfcapturas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregable))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

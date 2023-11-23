@@ -1,0 +1,82 @@
+CRITICAL - 2023-05-24 17:26:36 --> Call to a member function getCatalogoTipoAdjudicacion() on null
+in APPPATH/Controllers/Obra.php on line 287.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Obra->contrato('1')
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 18:16:20 --> syntax error, unexpected token "$", expecting variable
+in APPPATH/Controllers/Obra.php on line 298.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Obra.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Obra')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Obra')
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists('\\App\\Controllers\\Obra', true)
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 18:16:37 --> Invalid file: "convenio/convenio_register.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('convenio/convenio_register.php')
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('convenio/convenio_register', [], true)
+ 3 APPPATH/Controllers/Obra.php(308): view('convenio/convenio_register', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Obra->addConvenio('1')
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 20:04:19 --> Undefined variable $data
+in APPPATH/Controllers/Obra.php on line 328.
+ 1 APPPATH/Controllers/Obra.php(328): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH/Controllers/Obra.php', 328)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Obra->getPeriodoConvenio('$1')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 20:31:38 --> Attempt to read property "mes" on array
+in APPPATH/Controllers/Obra.php on line 359.
+ 1 APPPATH/Controllers/Obra.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "mes" on array', 'APPPATH/Controllers/Obra.php', 359)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Obra->getPeriodoConvenio('$1')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 20:31:51 --> Attempt to read property "mes" on array
+in APPPATH/Controllers/Obra.php on line 359.
+ 1 APPPATH/Controllers/Obra.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "mes" on array', 'APPPATH/Controllers/Obra.php', 359)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Obra->getPeriodoConvenio('$1')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 20:33:07 --> Undefined property: stdClass::$id
+in APPPATH/Controllers/Obra.php on line 367.
+ 1 APPPATH/Controllers/Obra.php(367): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH/Controllers/Obra.php', 367)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Obra->getPeriodoConvenio('$1')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 22:52:14 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH/Controllers/Obra.php on line 403.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Obra.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Obra')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Obra')
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists('\\App\\Controllers\\Obra', true)
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 22:58:04 --> Undefined variable $avanceModel
+in APPPATH/Controllers/Obra.php on line 327.
+ 1 APPPATH/Controllers/Obra.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $avanceModel', 'APPPATH/Controllers/Obra.php', 327)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Obra->getPeriodoConvenio('$1')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 22:58:39 --> Undefined variable $avanceModel
+in APPPATH/Controllers/Obra.php on line 327.
+ 1 APPPATH/Controllers/Obra.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $avanceModel', 'APPPATH/Controllers/Obra.php', 327)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Obra->getPeriodoConvenio('$1')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 23:00:10 --> Attempt to read property "mes" on array
+in APPPATH/Controllers/Obra.php on line 396.
+ 1 APPPATH/Controllers/Obra.php(396): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "mes" on array', 'APPPATH/Controllers/Obra.php', 396)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Obra->getPeriodoConvenio('$1')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

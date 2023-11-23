@@ -1,0 +1,5 @@
+[01-Apr-2023 15:53:46 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.0". You are running 7.4.33. in /home/caminos/public_html/admin/vendor/composer/platform_check.php on line 24
+[20-Apr-2023 18:27:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/caminos/public_html/admin/vendor/mpdf/mpdf/src/Otl.php on line 5726
+[18-May-2023 20:04:41 UTC] PHP Fatal error:  Cannot redeclare App\Controllers\Portada::ejeDesarrollo() in /home/caminos/public_html/admin2/app/Controllers/Portada.php on line 78
+[18-May-2023 20:04:44 UTC] PHP Fatal error:  Cannot redeclare App\Controllers\Portada::ejeDesarrollo() in /home/caminos/public_html/admin2/app/Controllers/Portada.php on line 78
+[14-Jun-2023 17:44:56 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/caminos/public_html/admin2/app/Models/ValidacionModel.php on line 4

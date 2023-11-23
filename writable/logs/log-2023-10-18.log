@@ -1,0 +1,653 @@
+ERROR - 2023-10-18 00:03:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(175): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2201')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2201')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-10-18 00:03:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(175): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2201')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2201')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-18 00:03:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ExpedienteModel.php(175): CodeIgniter\Database\BaseConnection->query('INSERT INTO obra_expediente (obra,num_expediente,existencia,observaciones) VALUES (2201,2,,)')
+ 2 APPPATH\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2201')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2201')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 00:04:21 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`documentos`.`obra_expediente`, CONSTRAINT `fk_obra_expediente_catalogo` FOREIGN KEY (`num_expediente`) REFERENCES `expediente_catalogo` (`num`) ON UPDATE CASCADE) in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(175): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2201')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2201')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-18 00:04:21 --> Cannot add or update a child row: a foreign key constraint fails (`documentos`.`obra_expediente`, CONSTRAINT `fk_obra_expediente_catalogo` FOREIGN KEY (`num_expediente`) REFERENCES `expediente_catalogo` (`num`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ExpedienteModel.php(175): CodeIgniter\Database\BaseConnection->query('INSERT INTO obra_expediente (obra,num_expediente) VALUES (2201,29)')
+ 2 APPPATH\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2201')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2201')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 00:05:18 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2199')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2199')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-10-18 00:05:18 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2199')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2199')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-18 00:05:18 --> Column count doesn't match value count at row 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obra_expediente (obra,num_expediente,existencia,observaciones) VALUES (2199,2)')
+ 2 APPPATH\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2199')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2199')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 00:06:00 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`documentos`.`obra_expediente`, CONSTRAINT `fk_obra_expediente_catalogo` FOREIGN KEY (`num_expediente`) REFERENCES `expediente_catalogo` (`num`) ON UPDATE CASCADE) in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2199')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2199')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-18 00:06:00 --> Cannot add or update a child row: a foreign key constraint fails (`documentos`.`obra_expediente`, CONSTRAINT `fk_obra_expediente_catalogo` FOREIGN KEY (`num_expediente`) REFERENCES `expediente_catalogo` (`num`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obra_expediente (obra,num_expediente) VALUES (2199,29)')
+ 2 APPPATH\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2199')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2199')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 00:06:34 --> mysqli_sql_exception: Unknown column '29A' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2198')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2198')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-18 00:06:34 --> Unknown column '29A' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obra_expediente (obra,num_expediente) VALUES (2198,29A)')
+ 2 APPPATH\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2198')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2198')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 15:36:25 --> Undefined variable $id
+in APPPATH\Views\catalogo_obras.php on line 31.
+ 1 APPPATH\Views\catalogo_obras.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\catalogo_obras.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo_obras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo_obras', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(75): view('catalogo_obras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2006')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 15:41:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2007')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2007')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-10-18 15:41:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2007')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2007')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-18 15:41:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obra_expediente (obra,num_expediente,existencia) VALUES (2007,2,)')
+ 2 APPPATH\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2007')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2007')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 15:41:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2007')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2007')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-10-18 15:41:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2007')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2007')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-18 15:41:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obra_expediente (obra,num_expediente,existencia) VALUES (2007,2,)')
+ 2 APPPATH\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2007')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2007')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 15:41:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2007')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2007')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-10-18 15:41:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2007')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2007')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-18 15:41:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obra_expediente (obra,num_expediente,existencia) VALUES (2007,2,)')
+ 2 APPPATH\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2007')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2007')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 15:42:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2007')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2007')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-10-18 15:42:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2007')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2007')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-18 15:42:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obra_expediente (obra,num_expediente,existencia) VALUES (2007,2, )')
+ 2 APPPATH\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2007')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2007')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 15:42:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2007')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2007')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-10-18 15:42:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2007')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2007')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-18 15:42:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obra_expediente (obra,num_expediente,existencia) VALUES (2007,2, )')
+ 2 APPPATH\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2007')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2007')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 15:45:44 --> mysqli_sql_exception: Unknown column 'No' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2007')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2007')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-10-18 15:45:44 --> mysqli_sql_exception: Unknown column 'No' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2007')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2007')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-18 15:45:44 --> Unknown column 'No' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obra_expediente (obra,num_expediente,existencia) VALUES (2007,\'2\',No)')
+ 2 APPPATH\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2007')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2007')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 15:46:17 --> mysqli_sql_exception: Unknown column 'No' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2007')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2007')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-10-18 15:46:17 --> mysqli_sql_exception: Unknown column 'No' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2007')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2007')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-18 15:46:17 --> Unknown column 'No' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obra_expediente (obra,num_expediente,existencia) VALUES (2007,\'2\',No)')
+ 2 APPPATH\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2007')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2007')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 15:46:20 --> mysqli_sql_exception: Unknown column 'No' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2007')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2007')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-10-18 15:46:20 --> mysqli_sql_exception: Unknown column 'No' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2007')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2007')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-18 15:46:20 --> Unknown column 'No' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obra_expediente (obra,num_expediente,existencia) VALUES (2007,\'2\',No)')
+ 2 APPPATH\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2007')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2007')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 15:46:41 --> Undefined variable $id
+in APPPATH\Views\catalogo_obras.php on line 31.
+ 1 APPPATH\Views\catalogo_obras.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\catalogo_obras.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo_obras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo_obras', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(75): view('catalogo_obras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2007')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 16:11:41 --> mysqli_sql_exception: Unknown column 'NO' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2008')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2008')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-10-18 16:11:41 --> mysqli_sql_exception: Unknown column 'NO' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2008')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2008')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-18 16:11:41 --> Unknown column 'NO' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obra_expediente (obra,num_expediente,existencia) VALUES (2008,\'2\',NO)')
+ 2 APPPATH\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2008')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2008')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 16:11:48 --> mysqli_sql_exception: Unknown column 'NO' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2008')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2008')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-10-18 16:11:48 --> mysqli_sql_exception: Unknown column 'NO' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2008')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2008')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-18 16:11:48 --> Unknown column 'NO' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ExpedienteModel.php(174): CodeIgniter\Database\BaseConnection->query('INSERT INTO obra_expediente (obra,num_expediente,existencia) VALUES (2008,\'2\',NO)')
+ 2 APPPATH\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2008')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2008')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 16:12:06 --> Undefined variable $id
+in APPPATH\Views\catalogo_obras.php on line 31.
+ 1 APPPATH\Views\catalogo_obras.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\catalogo_obras.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo_obras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo_obras', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(75): view('catalogo_obras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2008')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 17:35:29 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\catalogo_obras.php on line 27.
+ 1 APPPATH\Views\catalogo_obras.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\catalogo_obras.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo_obras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo_obras', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(75): view('catalogo_obras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('20000000000000000000000000000000000009')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 23:07:31 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\catalogo_obras.php on line 27.
+ 1 APPPATH\Views\catalogo_obras.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\catalogo_obras.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo_obras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo_obras', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(75): view('catalogo_obras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2000000003334444444444444444')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 23:14:12 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\catalogo_obras.php on line 27.
+ 1 APPPATH\Views\catalogo_obras.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\catalogo_obras.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo_obras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo_obras', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(75): view('catalogo_obras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2000000003334444444444444444')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 23:17:03 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\catalogo_obras.php on line 27.
+ 1 APPPATH\Views\catalogo_obras.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\catalogo_obras.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo_obras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo_obras', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(75): view('catalogo_obras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2000000003334444444444444444')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 23:44:31 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\catalogo_obras.php on line 27.
+ 1 APPPATH\Views\catalogo_obras.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\catalogo_obras.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo_obras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo_obras', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(75): view('catalogo_obras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('20244444444444444444444444444444444555')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 23:46:40 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\catalogo_obras.php on line 27.
+ 1 APPPATH\Views\catalogo_obras.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\catalogo_obras.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo_obras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo_obras', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(75): view('catalogo_obras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('20244444444444444444444444444444444555')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 23:46:42 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\catalogo_obras.php on line 27.
+ 1 APPPATH\Views\catalogo_obras.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\catalogo_obras.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo_obras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo_obras', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(75): view('catalogo_obras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('20244444444444444444444444444444444555')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 23:46:44 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\catalogo_obras.php on line 27.
+ 1 APPPATH\Views\catalogo_obras.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\catalogo_obras.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo_obras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo_obras', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(75): view('catalogo_obras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('20244444444444444444444444444444444555')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 23:46:45 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\catalogo_obras.php on line 27.
+ 1 APPPATH\Views\catalogo_obras.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\catalogo_obras.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo_obras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo_obras', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(75): view('catalogo_obras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('20244444444444444444444444444444444555')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 23:46:46 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\catalogo_obras.php on line 27.
+ 1 APPPATH\Views\catalogo_obras.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\catalogo_obras.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo_obras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo_obras', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(75): view('catalogo_obras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('20244444444444444444444444444444444555')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 23:46:47 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\catalogo_obras.php on line 27.
+ 1 APPPATH\Views\catalogo_obras.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\catalogo_obras.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo_obras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo_obras', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(75): view('catalogo_obras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('20244444444444444444444444444444444555')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 23:46:48 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\catalogo_obras.php on line 27.
+ 1 APPPATH\Views\catalogo_obras.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\catalogo_obras.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo_obras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo_obras', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(75): view('catalogo_obras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('20244444444444444444444444444444444555')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 23:58:26 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\catalogo_obras.php on line 27.
+ 1 APPPATH\Views\catalogo_obras.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\catalogo_obras.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo_obras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo_obras', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(77): view('catalogo_obras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('200000000000000000000000000')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 23:59:19 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\catalogo_obras.php on line 27.
+ 1 APPPATH\Views\catalogo_obras.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\catalogo_obras.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo_obras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo_obras', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(77): view('catalogo_obras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('200000000000000000000000000')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 23:59:20 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\catalogo_obras.php on line 27.
+ 1 APPPATH\Views\catalogo_obras.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\catalogo_obras.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo_obras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo_obras', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(77): view('catalogo_obras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('200000000000000000000000000')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 23:59:21 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\catalogo_obras.php on line 27.
+ 1 APPPATH\Views\catalogo_obras.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\catalogo_obras.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo_obras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo_obras', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(77): view('catalogo_obras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('200000000000000000000000000')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

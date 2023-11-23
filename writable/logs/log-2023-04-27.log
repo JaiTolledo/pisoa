@@ -1,0 +1,38 @@
+CRITICAL - 2023-04-27 23:58:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH/Models/ExpedienteModel.php on line 20.
+ 1 APPPATH/Controllers/Home.php(306): App\Models\ExpedienteModel->init(1)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->prueba()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 22:15:49 --> Invalid file: "expediente/expediente_home.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('expediente/expediente_home.php')
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('expediente/expediente_home', [], true)
+ 3 APPPATH/Controllers/Expediente.php(25): view('expediente/expediente_home', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Expediente->index('1')
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expediente))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 22:38:14 --> Undefined property: stdClass::$descripcion_titulo
+in APPPATH/Views/expediente/expediente_home.php on line 15.
+ 1 APPPATH/Views/expediente/expediente_home.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$descripcion_titulo', 'APPPATH/Views/expediente/expediente_home.php', 15)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/expediente/expediente_home.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('expediente/expediente_home', [], true)
+ 5 APPPATH/Controllers/Expediente.php(26): view('expediente/expediente_home', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Expediente->index('1')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expediente))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 22:39:02 --> Undefined property: stdClass::$descripcion_titulo
+in APPPATH/Views/expediente/expediente_home.php on line 15.
+ 1 APPPATH/Views/expediente/expediente_home.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$descripcion_titulo', 'APPPATH/Views/expediente/expediente_home.php', 15)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/expediente/expediente_home.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('expediente/expediente_home', [], true)
+ 5 APPPATH/Controllers/Expediente.php(26): view('expediente/expediente_home', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Expediente->index('1')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expediente))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

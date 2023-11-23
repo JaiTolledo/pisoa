@@ -1,0 +1,159 @@
+ERROR - 2023-05-27 15:49:39 --> mysqli_sql_exception: Unknown column 'contratatado_modificado' in 'field list' in /home/caminos/public_html/admin2/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/caminos/public_html/admin2/system/Database/MySQLi/Connection.php(295): mysqli->query('UPDATE `obra_co...', 0)
+#1 /home/caminos/public_html/admin2/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `obra_co...')
+#2 /home/caminos/public_html/admin2/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `obra_co...')
+#3 /home/caminos/public_html/admin2/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `obra_co...', Array, false)
+#4 /home/caminos/public_html/admin2/app/Models/ObraModel.php(83): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/caminos/public_html/admin2/app/Controllers/Obra.php(462): App\Models\ObraModel->addConvenio('1', Array, Array, Array, Array, Array)
+#6 /home/caminos/public_html/admin2/system/CodeIgniter.php(934): App\Controllers\Obra->registerconvenio('$1')
+#7 /home/caminos/public_html/admin2/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+#8 /home/caminos/public_html/admin2/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/caminos/public_html/admin2/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-05-27 15:49:39 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`caminos_app`.`obra_convenios`, CONSTRAINT `fk_convenio_obra` FOREIGN KEY (`obra`) REFERENCES `obras` (`obra_id`) ON UPDATE CASCADE) in /home/caminos/public_html/admin2/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/caminos/public_html/admin2/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `ob...', 0)
+#1 /home/caminos/public_html/admin2/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ob...')
+#2 /home/caminos/public_html/admin2/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ob...')
+#3 /home/caminos/public_html/admin2/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ob...', Array, false)
+#4 /home/caminos/public_html/admin2/app/Models/ObraModel.php(86): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/caminos/public_html/admin2/app/Controllers/Obra.php(462): App\Models\ObraModel->addConvenio('1', Array, Array, Array, Array, Array)
+#6 /home/caminos/public_html/admin2/system/CodeIgniter.php(934): App\Controllers\Obra->registerconvenio('$1')
+#7 /home/caminos/public_html/admin2/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+#8 /home/caminos/public_html/admin2/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/caminos/public_html/admin2/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-05-27 15:49:50 --> mysqli_sql_exception: Unknown column 'contratatado_modificado' in 'field list' in /home/caminos/public_html/admin2/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/caminos/public_html/admin2/system/Database/MySQLi/Connection.php(295): mysqli->query('UPDATE `obra_co...', 0)
+#1 /home/caminos/public_html/admin2/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `obra_co...')
+#2 /home/caminos/public_html/admin2/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `obra_co...')
+#3 /home/caminos/public_html/admin2/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `obra_co...', Array, false)
+#4 /home/caminos/public_html/admin2/app/Models/ObraModel.php(83): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/caminos/public_html/admin2/app/Controllers/Obra.php(462): App\Models\ObraModel->addConvenio('1', Array, Array, Array, Array, Array)
+#6 /home/caminos/public_html/admin2/system/CodeIgniter.php(934): App\Controllers\Obra->registerconvenio('$1')
+#7 /home/caminos/public_html/admin2/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+#8 /home/caminos/public_html/admin2/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/caminos/public_html/admin2/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-05-27 15:49:50 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`caminos_app`.`obra_convenios`, CONSTRAINT `fk_convenio_obra` FOREIGN KEY (`obra`) REFERENCES `obras` (`obra_id`) ON UPDATE CASCADE) in /home/caminos/public_html/admin2/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/caminos/public_html/admin2/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `ob...', 0)
+#1 /home/caminos/public_html/admin2/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ob...')
+#2 /home/caminos/public_html/admin2/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ob...')
+#3 /home/caminos/public_html/admin2/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ob...', Array, false)
+#4 /home/caminos/public_html/admin2/app/Models/ObraModel.php(86): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/caminos/public_html/admin2/app/Controllers/Obra.php(462): App\Models\ObraModel->addConvenio('1', Array, Array, Array, Array, Array)
+#6 /home/caminos/public_html/admin2/system/CodeIgniter.php(934): App\Controllers\Obra->registerconvenio('$1')
+#7 /home/caminos/public_html/admin2/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+#8 /home/caminos/public_html/admin2/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/caminos/public_html/admin2/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-05-27 15:51:16 --> mysqli_sql_exception: Unknown column 'contratatado_modificado' in 'field list' in /home/caminos/public_html/admin2/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/caminos/public_html/admin2/system/Database/MySQLi/Connection.php(295): mysqli->query('UPDATE `obra_co...', 0)
+#1 /home/caminos/public_html/admin2/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `obra_co...')
+#2 /home/caminos/public_html/admin2/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `obra_co...')
+#3 /home/caminos/public_html/admin2/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `obra_co...', Array, false)
+#4 /home/caminos/public_html/admin2/app/Models/ObraModel.php(83): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/caminos/public_html/admin2/app/Controllers/Obra.php(462): App\Models\ObraModel->addConvenio('1', Array, Array, Array, Array, Array)
+#6 /home/caminos/public_html/admin2/system/CodeIgniter.php(934): App\Controllers\Obra->registerconvenio('$1')
+#7 /home/caminos/public_html/admin2/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+#8 /home/caminos/public_html/admin2/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/caminos/public_html/admin2/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-05-27 15:51:28 --> mysqli_sql_exception: Unknown column 'contratatado_modificado' in 'field list' in /home/caminos/public_html/admin2/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/caminos/public_html/admin2/system/Database/MySQLi/Connection.php(295): mysqli->query('UPDATE `obra_co...', 0)
+#1 /home/caminos/public_html/admin2/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `obra_co...')
+#2 /home/caminos/public_html/admin2/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `obra_co...')
+#3 /home/caminos/public_html/admin2/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `obra_co...', Array, false)
+#4 /home/caminos/public_html/admin2/app/Models/ObraModel.php(83): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/caminos/public_html/admin2/app/Controllers/Obra.php(462): App\Models\ObraModel->addConvenio('1', Array, Array, Array, Array, Array)
+#6 /home/caminos/public_html/admin2/system/CodeIgniter.php(934): App\Controllers\Obra->registerconvenio('$1')
+#7 /home/caminos/public_html/admin2/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+#8 /home/caminos/public_html/admin2/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/caminos/public_html/admin2/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-05-27 15:52:25 --> mysqli_sql_exception: Unknown column 'contratatado_modificado' in 'field list' in /home/caminos/public_html/admin2/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/caminos/public_html/admin2/system/Database/MySQLi/Connection.php(295): mysqli->query('UPDATE `obra_co...', 0)
+#1 /home/caminos/public_html/admin2/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `obra_co...')
+#2 /home/caminos/public_html/admin2/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `obra_co...')
+#3 /home/caminos/public_html/admin2/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `obra_co...', Array, false)
+#4 /home/caminos/public_html/admin2/app/Models/ObraModel.php(83): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/caminos/public_html/admin2/app/Controllers/Obra.php(462): App\Models\ObraModel->addConvenio('1', Array, Array, Array, Array, Array)
+#6 /home/caminos/public_html/admin2/system/CodeIgniter.php(934): App\Controllers\Obra->registerconvenio('$1')
+#7 /home/caminos/public_html/admin2/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+#8 /home/caminos/public_html/admin2/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/caminos/public_html/admin2/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-05-27 15:53:05 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`caminos_app`.`obra_convenios`, CONSTRAINT `fk_convenio_obra` FOREIGN KEY (`obra`) REFERENCES `obras` (`obra_id`) ON UPDATE CASCADE) in /home/caminos/public_html/admin2/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/caminos/public_html/admin2/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `ob...', 0)
+#1 /home/caminos/public_html/admin2/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ob...')
+#2 /home/caminos/public_html/admin2/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ob...')
+#3 /home/caminos/public_html/admin2/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ob...', Array, false)
+#4 /home/caminos/public_html/admin2/app/Models/ObraModel.php(86): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/caminos/public_html/admin2/app/Controllers/Obra.php(462): App\Models\ObraModel->addConvenio('1', Array, Array, Array, Array, Array)
+#6 /home/caminos/public_html/admin2/system/CodeIgniter.php(934): App\Controllers\Obra->registerconvenio('$1')
+#7 /home/caminos/public_html/admin2/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+#8 /home/caminos/public_html/admin2/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/caminos/public_html/admin2/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-05-27 15:53:20 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`caminos_app`.`obra_convenios`, CONSTRAINT `fk_convenio_obra` FOREIGN KEY (`obra`) REFERENCES `obras` (`obra_id`) ON UPDATE CASCADE) in /home/caminos/public_html/admin2/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/caminos/public_html/admin2/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `ob...', 0)
+#1 /home/caminos/public_html/admin2/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ob...')
+#2 /home/caminos/public_html/admin2/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ob...')
+#3 /home/caminos/public_html/admin2/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ob...', Array, false)
+#4 /home/caminos/public_html/admin2/app/Models/ObraModel.php(86): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/caminos/public_html/admin2/app/Controllers/Obra.php(462): App\Models\ObraModel->addConvenio('1', Array, Array, Array, Array, Array)
+#6 /home/caminos/public_html/admin2/system/CodeIgniter.php(934): App\Controllers\Obra->registerconvenio('$1')
+#7 /home/caminos/public_html/admin2/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+#8 /home/caminos/public_html/admin2/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/caminos/public_html/admin2/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-05-27 15:54:02 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`caminos_app`.`obra_convenios`, CONSTRAINT `fk_convenio_obra` FOREIGN KEY (`obra`) REFERENCES `obras` (`obra_id`) ON UPDATE CASCADE) in /home/caminos/public_html/admin2/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/caminos/public_html/admin2/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `ob...', 0)
+#1 /home/caminos/public_html/admin2/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ob...')
+#2 /home/caminos/public_html/admin2/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ob...')
+#3 /home/caminos/public_html/admin2/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ob...', Array, false)
+#4 /home/caminos/public_html/admin2/app/Models/ObraModel.php(86): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/caminos/public_html/admin2/app/Controllers/Obra.php(462): App\Models\ObraModel->addConvenio('1', Array, Array, Array, Array, Array)
+#6 /home/caminos/public_html/admin2/system/CodeIgniter.php(934): App\Controllers\Obra->registerconvenio('$1')
+#7 /home/caminos/public_html/admin2/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+#8 /home/caminos/public_html/admin2/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/caminos/public_html/admin2/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-27 16:08:52 --> Undefined variable $init
+in APPPATH/Views/contrato/contrato_register.php on line 168.
+ 1 APPPATH/Views/contrato/contrato_register.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $init', 'APPPATH/Views/contrato/contrato_register.php', 168)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/contrato/contrato_register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('contrato/contrato_register', [], true)
+ 5 APPPATH/Controllers/Obra.php(296): view('contrato/contrato_register', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Obra->contrato('1')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 16:31:19 --> Invalid file: "capturas/ccaptura_item.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('capturas/ccaptura_item.php')
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('capturas/ccaptura_item', [], true)
+ 3 APPPATH/Controllers/Captura.php(23): view('capturas/ccaptura_item', [])
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captura->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Captura))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 16:32:05 --> Invalid file: "capturas/captura_item.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('capturas/captura_item.php')
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('capturas/captura_item', [], true)
+ 3 APPPATH/Controllers/Captura.php(25): view('capturas/captura_item', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captura->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Captura))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

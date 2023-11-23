@@ -1,0 +1,7 @@
+CRITICAL - 2023-11-23 00:05:43 --> Call to undefined function App\Controllers\gps2Num()
+in APPPATH\Controllers\ApiAppController.php on line 73.
+ 1 APPPATH\Controllers\ApiAppController.php(54): App\Controllers\ApiAppController->get_image_location('FCPATH\\assets\\uploads\\397082782_902147844961718_3187064548804988423_n_7.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

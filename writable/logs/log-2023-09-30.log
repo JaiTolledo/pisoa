@@ -1,0 +1,74 @@
+CRITICAL - 2023-09-30 02:10:39 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\expediente.php on line 81.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('expediente', [], true)
+ 3 APPPATH\Controllers\ExpedienteObra.php(33): view('expediente', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->expedientes()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 03:13:30 --> Undefined variable $total
+in APPPATH\Views\expediente.php on line 66.
+ 1 APPPATH\Views\expediente.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'APPPATH\\Views\\expediente.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\expediente.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('expediente', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(33): view('expediente', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->expedientes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 16:32:36 --> Undefined variable $k
+in APPPATH\Views\expediente.php on line 41.
+ 1 APPPATH\Views\expediente.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $k', 'APPPATH\\Views\\expediente.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\expediente.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('expediente', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(36): view('expediente', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->expedientes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 16:37:51 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 262160384 bytes)
+in APPPATH\Views\expediente.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-30 16:38:35 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Views\expediente.php on line 66.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-30 16:39:04 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Views\expediente.php on line 78.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-30 16:45:22 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Views\expediente.php on line 78.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-30 16:45:45 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Views\expediente.php on line 66.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-30 16:46:33 --> Undefined variable $total3
+in APPPATH\Views\expediente.php on line 80.
+ 1 APPPATH\Views\expediente.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total3', 'APPPATH\\Views\\expediente.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\expediente.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('expediente', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(36): view('expediente', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->expedientes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 16:48:51 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Views\expediente.php on line 79.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-30 16:49:28 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Views\expediente.php on line 73.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-30 19:46:00 --> Undefined variable $total2
+in APPPATH\Views\expediente.php on line 80.
+ 1 APPPATH\Views\expediente.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total2', 'APPPATH\\Views\\expediente.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\expediente.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('expediente', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(36): view('expediente', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->expedientes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

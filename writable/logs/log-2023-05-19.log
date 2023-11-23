@@ -1,0 +1,113 @@
+CRITICAL - 2023-05-19 16:48:48 --> Invalid file: "portada/portafolio_obras.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('portada/portafolio_obras.php')
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('portada/portafolio_obras', [], true)
+ 3 APPPATH/Controllers/Portada.php(103): view('portada/portafolio_obras', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Portada->obras()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portada))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 13:31:53 --> Attempt to read property "status_actual" on null
+in APPPATH/Controllers/Avance.php on line 22.
+ 1 APPPATH/Controllers/Avance.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "status_actual" on null', 'APPPATH/Controllers/Avance.php', 22)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Avance->index('0')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avance))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 20:19:59 --> Undefined variable $catalogo_carteras
+in APPPATH/Views/portada/portafolio_principal.php on line 312.
+ 1 APPPATH/Views/portada/portafolio_principal.php(312): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $catalogo_carteras', 'APPPATH/Views/portada/portafolio_principal.php', 312)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/portada/portafolio_principal.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('portada/portafolio_principal', [], true)
+ 5 APPPATH/Controllers/Portada.php(29): view('portada/portafolio_principal', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Portada->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portada))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 21:09:24 --> Undefined variable $catalogo_carteras
+in APPPATH/Views/portada/portafolio_principal.php on line 344.
+ 1 APPPATH/Views/portada/portafolio_principal.php(344): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $catalogo_carteras', 'APPPATH/Views/portada/portafolio_principal.php', 344)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/portada/portafolio_principal.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('portada/portafolio_principal', [], true)
+ 5 APPPATH/Controllers/Portada.php(52): view('portada/portafolio_principal', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Portada->compromisos()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portada))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 23:52:01 --> mysqli_sql_exception: Unknown column 'ejecutora' in 'where clause' in /home/caminos/public_html/admin2/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/caminos/public_html/admin2/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT * FROM `...', 0)
+#1 /home/caminos/public_html/admin2/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /home/caminos/public_html/admin2/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /home/caminos/public_html/admin2/app/Models/UniversoModel.php(745): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /home/caminos/public_html/admin2/app/Controllers/Universo.php(373): App\Models\UniversoModel->getDataFilter(2023, NULL, Array)
+#5 /home/caminos/public_html/admin2/system/CodeIgniter.php(934): App\Controllers\Universo->JSONDataFilter()
+#6 /home/caminos/public_html/admin2/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+#7 /home/caminos/public_html/admin2/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/caminos/public_html/admin2/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 23:52:01 --> Unknown column 'ejecutora' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 APPPATH/Models/UniversoModel.php(745): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `universo_detail_min` WHERE ejercicio = 2023   AND  ejecutora = \'46\' ')
+ 2 APPPATH/Controllers/Universo.php(373): App\Models\UniversoModel->getDataFilter(2023, null, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->JSONDataFilter()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 23:57:27 --> Undefined property: stdClass::$ente_data_id
+in APPPATH/Views/portada/portafolio_principal.php on line 286.
+ 1 APPPATH/Views/portada/portafolio_principal.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ente_data_id', 'APPPATH/Views/portada/portafolio_principal.php', 286)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/portada/portafolio_principal.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('portada/portafolio_principal', [], true)
+ 5 APPPATH/Controllers/Portada.php(44): view('portada/portafolio_principal', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Portada->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portada))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 23:57:29 --> Undefined property: stdClass::$ente_data_id
+in APPPATH/Views/portada/portafolio_principal.php on line 286.
+ 1 APPPATH/Views/portada/portafolio_principal.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ente_data_id', 'APPPATH/Views/portada/portafolio_principal.php', 286)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/portada/portafolio_principal.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('portada/portafolio_principal', [], true)
+ 5 APPPATH/Controllers/Portada.php(44): view('portada/portafolio_principal', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Portada->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portada))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 23:57:34 --> Undefined property: stdClass::$ente_data_id
+in APPPATH/Views/portada/portafolio_principal.php on line 286.
+ 1 APPPATH/Views/portada/portafolio_principal.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ente_data_id', 'APPPATH/Views/portada/portafolio_principal.php', 286)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/portada/portafolio_principal.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('portada/portafolio_principal', [], true)
+ 5 APPPATH/Controllers/Portada.php(44): view('portada/portafolio_principal', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Portada->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portada))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 23:58:28 --> Undefined property: stdClass::$ente_data_id
+in APPPATH/Views/portada/portafolio_principal.php on line 286.
+ 1 APPPATH/Views/portada/portafolio_principal.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ente_data_id', 'APPPATH/Views/portada/portafolio_principal.php', 286)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/portada/portafolio_principal.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('portada/portafolio_principal', [], true)
+ 5 APPPATH/Controllers/Portada.php(44): view('portada/portafolio_principal', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Portada->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portada))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 23:58:58 --> Undefined variable $programas
+in APPPATH/Views/portada/portafolio_principal.php on line 311.
+ 1 APPPATH/Views/portada/portafolio_principal.php(311): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $programas', 'APPPATH/Views/portada/portafolio_principal.php', 311)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/portada/portafolio_principal.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('portada/portafolio_principal', [], true)
+ 5 APPPATH/Controllers/Portada.php(44): view('portada/portafolio_principal', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Portada->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portada))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

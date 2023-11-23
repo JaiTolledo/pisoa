@@ -1,0 +1,380 @@
+ERROR - 2023-11-16 23:09:12 --> mysqli_sql_exception: Unknown column 'image' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-16 23:09:12 --> Unknown column 'image' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_imagen` (`id_avance`, `image`) VALUES (:id_avance:, :image:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-16 23:10:05 --> mysqli_sql_exception: Unknown column 'image' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-16 23:10:05 --> Unknown column 'image' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_imagen` (`id_avance`, `image`) VALUES (:id_avance:, :image:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-16 23:10:06 --> mysqli_sql_exception: Unknown column 'image' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-16 23:10:06 --> Unknown column 'image' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_imagen` (`id_avance`, `image`) VALUES (:id_avance:, :image:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-16 23:10:07 --> mysqli_sql_exception: Unknown column 'image' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-16 23:10:07 --> Unknown column 'image' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_imagen` (`id_avance`, `image`) VALUES (:id_avance:, :image:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-16 23:13:11 --> mysqli_sql_exception: Unknown column 'image' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-16 23:13:11 --> Unknown column 'image' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_imagen` (`id_avance`, `image`) VALUES (:id_avance:, :image:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-16 23:13:12 --> mysqli_sql_exception: Unknown column 'image' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-16 23:13:12 --> Unknown column 'image' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_imagen` (`id_avance`, `image`) VALUES (:id_avance:, :image:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-16 23:13:13 --> mysqli_sql_exception: Unknown column 'image' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-16 23:13:13 --> Unknown column 'image' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_imagen` (`id_avance`, `image`) VALUES (:id_avance:, :image:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-16 23:13:15 --> mysqli_sql_exception: Unknown column 'image' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-16 23:13:15 --> Unknown column 'image' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_imagen` (`id_avance`, `image`) VALUES (:id_avance:, :image:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-16 23:13:35 --> mysqli_sql_exception: Unknown column 'image' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-16 23:13:35 --> Unknown column 'image' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_imagen` (`id_avance`, `image`) VALUES (:id_avance:, :image:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-16 23:13:36 --> mysqli_sql_exception: Unknown column 'image' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-16 23:13:36 --> Unknown column 'image' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_imagen` (`id_avance`, `image`) VALUES (:id_avance:, :image:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-16 23:13:37 --> mysqli_sql_exception: Unknown column 'image' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-16 23:13:37 --> Unknown column 'image' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_imagen` (`id_avance`, `image`) VALUES (:id_avance:, :image:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-16 23:13:38 --> mysqli_sql_exception: Unknown column 'image' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-16 23:13:38 --> Unknown column 'image' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_imagen` (`id_avance`, `image`) VALUES (:id_avance:, :image:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-16 23:15:38 --> mysqli_sql_exception: Unknown column 'image' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-16 23:15:38 --> Unknown column 'image' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_imagen` (`id_avance`, `image`) VALUES (:id_avance:, :image:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-16 23:15:39 --> mysqli_sql_exception: Unknown column 'image' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-16 23:15:39 --> Unknown column 'image' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_imagen` (`id_avance`, `image`) VALUES (:id_avance:, :image:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-16 23:15:40 --> mysqli_sql_exception: Unknown column 'image' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-16 23:15:40 --> Unknown column 'image' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_imagen` (`id_avance`, `image`) VALUES (:id_avance:, :image:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-16 23:15:41 --> mysqli_sql_exception: Unknown column 'image' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-16 23:15:41 --> Unknown column 'image' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_imagen` (`id_avance`, `image`) VALUES (:id_avance:, :image:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-16 23:15:41 --> mysqli_sql_exception: Unknown column 'image' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-16 23:15:41 --> Unknown column 'image' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_imagen` (`id_avance`, `image`) VALUES (:id_avance:, :image:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(37): App\Models\ApiModel->insertar_imagen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 23:27:50 --> Call to a member function isValid() on null
+in APPPATH\Controllers\ApiAppController.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

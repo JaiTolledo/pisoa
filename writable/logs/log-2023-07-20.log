@@ -1,0 +1,31 @@
+CRITICAL - 2023-07-20 17:21:04 --> Division by zero
+in APPPATH/Models/UniversoModel.php on line 723.
+ 1 APPPATH/Controllers/Universo.php(501): App\Models\UniversoModel->getGraficaPortafolio(2023, [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->graficaPortafolio()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 20:10:55 --> Invalid file: "entidad/entidad_portada.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('entidad/entidad_portada.php')
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('entidad/entidad_portada', [], true)
+ 3 APPPATH/Controllers/Entidad.php(14): view('entidad/entidad_portada', [])
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Entidad->item('1')
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entidad))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 20:22:25 --> Undefined variable $entidadID
+in APPPATH/Views/template_header.php on line 231.
+ 1 APPPATH/Views/template_header.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $entidadID', 'APPPATH/Views/template_header.php', 231)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template_header.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('template_header', [], true)
+ 5 APPPATH/Views/entidad/entidad_portada.php(1): view('template_header')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/entidad/entidad_portada.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('entidad/entidad_portada', [], true)
+ 9 APPPATH/Controllers/Entidad.php(16): view('entidad/entidad_portada', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Entidad->item('1')
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entidad))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

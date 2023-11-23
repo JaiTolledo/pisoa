@@ -1,0 +1,229 @@
+CRITICAL - 2023-11-22 00:02:58 --> Undefined array key "DateTime"
+in APPPATH\Controllers\ApiAppController.php on line 52.
+ 1 APPPATH\Controllers\ApiAppController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DateTime"', 'APPPATH\\Controllers\\ApiAppController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 15:50:19 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 49)
+ 2 APPPATH\Controllers\ApiAppController.php(49): exif_read_data('.app/assets/uploads/366055981_853991753110661_8242368477718644342_n_62.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 15:50:53 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 49)
+ 2 APPPATH\Controllers\ApiAppController.php(49): exif_read_data('../assets/uploads/366055981_853991753110661_8242368477718644342_n_64.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 18:02:19 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 61.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 61)
+ 2 APPPATH\Controllers\ApiAppController.php(61): exif_read_data('366963742_1034941201191833_282316579584010319_n_6.jpeg')
+ 3 APPPATH\Controllers\ApiAppController.php(52): App\Controllers\ApiAppController->triphoto_getGPS('366963742_1034941201191833_282316579584010319_n_6.jpeg')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 18:02:22 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 61.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 61)
+ 2 APPPATH\Controllers\ApiAppController.php(61): exif_read_data('366963742_1034941201191833_282316579584010319_n_7.jpeg')
+ 3 APPPATH\Controllers\ApiAppController.php(52): App\Controllers\ApiAppController->triphoto_getGPS('366963742_1034941201191833_282316579584010319_n_7.jpeg')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 18:02:43 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 61.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 61)
+ 2 APPPATH\Controllers\ApiAppController.php(61): exif_read_data('C:\\xampp\\tmp\\php2D6A.tmp')
+ 3 APPPATH\Controllers\ApiAppController.php(52): App\Controllers\ApiAppController->triphoto_getGPS(Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 19:09:39 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 61.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 61)
+ 2 APPPATH\Controllers\ApiAppController.php(61): exif_read_data('C:\\xampp\\tmp\\php75D5.tmp')
+ 3 APPPATH\Controllers\ApiAppController.php(52): App\Controllers\ApiAppController->triphoto_getGPS(Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 21:01:19 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 61.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 61)
+ 2 APPPATH\Controllers\ApiAppController.php(61): exif_read_data('C:\\xampp\\tmp\\phpB2B0.tmp')
+ 3 APPPATH\Controllers\ApiAppController.php(52): App\Controllers\ApiAppController->triphoto_getGPS(Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 21:01:49 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 49)
+ 2 APPPATH\Controllers\ApiAppController.php(49): exif_read_data('C:\\xampp\\tmp\\php26D8.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 21:02:04 --> exif_read_data(): Unable to open file
+in APPPATH\Controllers\ApiAppController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(): Unable to open file', 'APPPATH\\Controllers\\ApiAppController.php', 49)
+ 2 APPPATH\Controllers\ApiAppController.php(49): exif_read_data('C:\\xampp\\tmp\\php6180.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 22:25:18 --> exif_read_data(Captura de pantalla 2023-08-11 102511.png): File not supported
+in APPPATH\Controllers\ApiAppController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(Captura de pantalla 2023-08-11 102511.png): File not supported', 'APPPATH\\Controllers\\ApiAppController.php', 49)
+ 2 APPPATH\Controllers\ApiAppController.php(49): exif_read_data('FCPATH\\assets\\uploads\\Captura de pantalla 2023-08-11 102511.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 22:25:32 --> exif_read_data(Captura de pantalla 2023-08-11 102511_1.png): File not supported
+in APPPATH\Controllers\ApiAppController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(Captura de pantalla 2023-08-11 102511_1.png): File not supported', 'APPPATH\\Controllers\\ApiAppController.php', 49)
+ 2 APPPATH\Controllers\ApiAppController.php(49): exif_read_data('FCPATH\\assets\\uploads\\Captura de pantalla 2023-08-11 102511_1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 22:25:33 --> exif_read_data(Captura de pantalla 2023-08-11 102511_2.png): File not supported
+in APPPATH\Controllers\ApiAppController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(Captura de pantalla 2023-08-11 102511_2.png): File not supported', 'APPPATH\\Controllers\\ApiAppController.php', 49)
+ 2 APPPATH\Controllers\ApiAppController.php(49): exif_read_data('FCPATH\\assets\\uploads\\Captura de pantalla 2023-08-11 102511_2.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 22:25:41 --> exif_read_data(Captura de pantalla 2023-08-11 102511_3.png): File not supported
+in APPPATH\Controllers\ApiAppController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(Captura de pantalla 2023-08-11 102511_3.png): File not supported', 'APPPATH\\Controllers\\ApiAppController.php', 49)
+ 2 APPPATH\Controllers\ApiAppController.php(49): exif_read_data('FCPATH\\assets\\uploads\\Captura de pantalla 2023-08-11 102511_3.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 22:25:52 --> exif_read_data(Captura de pantalla 2023-08-11 102511_4.png): File not supported
+in APPPATH\Controllers\ApiAppController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(Captura de pantalla 2023-08-11 102511_4.png): File not supported', 'APPPATH\\Controllers\\ApiAppController.php', 49)
+ 2 APPPATH\Controllers\ApiAppController.php(49): exif_read_data('FCPATH\\assets\\uploads\\Captura de pantalla 2023-08-11 102511_4.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 22:25:54 --> exif_read_data(Captura de pantalla 2023-08-11 102511_5.png): File not supported
+in APPPATH\Controllers\ApiAppController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(Captura de pantalla 2023-08-11 102511_5.png): File not supported', 'APPPATH\\Controllers\\ApiAppController.php', 49)
+ 2 APPPATH\Controllers\ApiAppController.php(49): exif_read_data('FCPATH\\assets\\uploads\\Captura de pantalla 2023-08-11 102511_5.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 22:26:05 --> exif_read_data(Captura de pantalla 2023-08-11 102511_6.png): File not supported
+in APPPATH\Controllers\ApiAppController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(Captura de pantalla 2023-08-11 102511_6.png): File not supported', 'APPPATH\\Controllers\\ApiAppController.php', 49)
+ 2 APPPATH\Controllers\ApiAppController.php(49): exif_read_data('FCPATH\\assets\\uploads\\Captura de pantalla 2023-08-11 102511_6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 22:26:06 --> exif_read_data(Captura de pantalla 2023-08-11 102511_7.png): File not supported
+in APPPATH\Controllers\ApiAppController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(Captura de pantalla 2023-08-11 102511_7.png): File not supported', 'APPPATH\\Controllers\\ApiAppController.php', 49)
+ 2 APPPATH\Controllers\ApiAppController.php(49): exif_read_data('FCPATH\\assets\\uploads\\Captura de pantalla 2023-08-11 102511_7.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 22:26:07 --> exif_read_data(Captura de pantalla 2023-08-11 102511_8.png): File not supported
+in APPPATH\Controllers\ApiAppController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(Captura de pantalla 2023-08-11 102511_8.png): File not supported', 'APPPATH\\Controllers\\ApiAppController.php', 49)
+ 2 APPPATH\Controllers\ApiAppController.php(49): exif_read_data('FCPATH\\assets\\uploads\\Captura de pantalla 2023-08-11 102511_8.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 22:26:07 --> exif_read_data(Captura de pantalla 2023-08-11 102511_9.png): File not supported
+in APPPATH\Controllers\ApiAppController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(Captura de pantalla 2023-08-11 102511_9.png): File not supported', 'APPPATH\\Controllers\\ApiAppController.php', 49)
+ 2 APPPATH\Controllers\ApiAppController.php(49): exif_read_data('FCPATH\\assets\\uploads\\Captura de pantalla 2023-08-11 102511_9.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 22:26:09 --> exif_read_data(Captura de pantalla 2023-08-11 102511_10.png): File not supported
+in APPPATH\Controllers\ApiAppController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(Captura de pantalla 2023-08-11 102511_10.png): File not supported', 'APPPATH\\Controllers\\ApiAppController.php', 49)
+ 2 APPPATH\Controllers\ApiAppController.php(49): exif_read_data('FCPATH\\assets\\uploads\\Captura de pantalla 2023-08-11 102511_10.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 22:27:05 --> exif_read_data(Captura de pantalla 2023-08-11 102511_11.png): File not supported
+in APPPATH\Controllers\ApiAppController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(Captura de pantalla 2023-08-11 102511_11.png): File not supported', 'APPPATH\\Controllers\\ApiAppController.php', 49)
+ 2 APPPATH\Controllers\ApiAppController.php(49): exif_read_data('FCPATH\\assets\\uploads\\Captura de pantalla 2023-08-11 102511_11.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 22:27:06 --> exif_read_data(Captura de pantalla 2023-08-11 102511_12.png): File not supported
+in APPPATH\Controllers\ApiAppController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(Captura de pantalla 2023-08-11 102511_12.png): File not supported', 'APPPATH\\Controllers\\ApiAppController.php', 49)
+ 2 APPPATH\Controllers\ApiAppController.php(49): exif_read_data('FCPATH\\assets\\uploads\\Captura de pantalla 2023-08-11 102511_12.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 22:27:07 --> exif_read_data(Captura de pantalla 2023-08-11 102511_13.png): File not supported
+in APPPATH\Controllers\ApiAppController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(Captura de pantalla 2023-08-11 102511_13.png): File not supported', 'APPPATH\\Controllers\\ApiAppController.php', 49)
+ 2 APPPATH\Controllers\ApiAppController.php(49): exif_read_data('FCPATH\\assets\\uploads\\Captura de pantalla 2023-08-11 102511_13.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 22:28:55 --> exif_read_data(Captura de pantalla 2023-08-11 102511_14.png): File not supported
+in APPPATH\Controllers\ApiAppController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(Captura de pantalla 2023-08-11 102511_14.png): File not supported', 'APPPATH\\Controllers\\ApiAppController.php', 49)
+ 2 APPPATH\Controllers\ApiAppController.php(49): exif_read_data('FCPATH\\assets\\uploads\\Captura de pantalla 2023-08-11 102511_14.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 22:28:56 --> exif_read_data(Captura de pantalla 2023-08-11 102511_15.png): File not supported
+in APPPATH\Controllers\ApiAppController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(Captura de pantalla 2023-08-11 102511_15.png): File not supported', 'APPPATH\\Controllers\\ApiAppController.php', 49)
+ 2 APPPATH\Controllers\ApiAppController.php(49): exif_read_data('FCPATH\\assets\\uploads\\Captura de pantalla 2023-08-11 102511_15.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 22:28:57 --> exif_read_data(Captura de pantalla 2023-08-11 102511_16.png): File not supported
+in APPPATH\Controllers\ApiAppController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'exif_read_data(Captura de pantalla 2023-08-11 102511_16.png): File not supported', 'APPPATH\\Controllers\\ApiAppController.php', 49)
+ 2 APPPATH\Controllers\ApiAppController.php(49): exif_read_data('FCPATH\\assets\\uploads\\Captura de pantalla 2023-08-11 102511_16.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 23:12:12 --> A non-numeric value encountered
+in APPPATH\Controllers\ApiAppController.php on line 83.
+ 1 APPPATH\Controllers\ApiAppController.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\ApiAppController.php', 83)
+ 2 APPPATH\Controllers\ApiAppController.php(72): App\Controllers\ApiAppController->gps_to_decimal([...], 'N')
+ 3 APPPATH\Controllers\ApiAppController.php(57): App\Controllers\ApiAppController->get_gps([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->uploadfile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,555 @@
+CRITICAL - 2023-11-15 23:16:27 --> Call to undefined function App\Controllers\auth()
+in APPPATH\Controllers\ApiAppController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->userLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:16:29 --> Call to undefined function App\Controllers\auth()
+in APPPATH\Controllers\ApiAppController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->userLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:16:30 --> Call to undefined function App\Controllers\auth()
+in APPPATH\Controllers\ApiAppController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->userLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:16:31 --> Call to undefined function App\Controllers\auth()
+in APPPATH\Controllers\ApiAppController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->userLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:17:04 --> Call to undefined function App\Controllers\auth()
+in APPPATH\Controllers\ApiAppController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->userLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:17:05 --> Call to undefined function App\Controllers\auth()
+in APPPATH\Controllers\ApiAppController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->userLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:17:06 --> Call to undefined function App\Controllers\auth()
+in APPPATH\Controllers\ApiAppController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->userLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:17:07 --> Call to undefined function App\Controllers\auth()
+in APPPATH\Controllers\ApiAppController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->userLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:17:07 --> Call to undefined function App\Controllers\auth()
+in APPPATH\Controllers\ApiAppController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->userLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:17:08 --> Call to undefined function App\Controllers\auth()
+in APPPATH\Controllers\ApiAppController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->userLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:17:08 --> Call to undefined function App\Controllers\auth()
+in APPPATH\Controllers\ApiAppController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->userLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:17:09 --> Call to undefined function App\Controllers\auth()
+in APPPATH\Controllers\ApiAppController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->userLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:17:10 --> Call to undefined function App\Controllers\auth()
+in APPPATH\Controllers\ApiAppController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->userLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:17:11 --> Call to undefined function App\Controllers\auth()
+in APPPATH\Controllers\ApiAppController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->userLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:17:11 --> Call to undefined function App\Controllers\auth()
+in APPPATH\Controllers\ApiAppController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->userLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:17:12 --> Call to undefined function App\Controllers\auth()
+in APPPATH\Controllers\ApiAppController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->userLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:17:13 --> Call to undefined function App\Controllers\auth()
+in APPPATH\Controllers\ApiAppController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->userLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:25:06 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:25:08 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:25:09 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:25:10 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:25:11 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:25:12 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:25:12 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:25:13 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:25:22 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:25:23 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:25:43 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:25:44 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:25:45 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:25:46 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:25:47 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:25:48 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:25:49 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:25:50 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:25:51 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:25:51 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:25:52 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:25:53 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:25:54 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:25:55 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:25:57 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:26:32 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 32
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(32): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:26:40 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 32
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(32): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:26:41 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 32
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(32): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:26:42 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 32
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(32): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:26:43 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 32
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(32): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:26:44 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 32
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(32): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:26:44 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 32
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(32): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:26:45 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 32
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(32): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:27:33 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 32
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(32): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:27:40 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 32
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(32): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:32:35 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:33:04 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:33:06 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:33:07 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, array given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 33
+in APPPATH\Models\ApiModel.php on line 11.
+ 1 APPPATH\Controllers\ApiAppController.php(33): App\Models\ApiModel->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:45:40 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\ApiAppController.php(19): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\ApiAppController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:45:42 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\ApiAppController.php(19): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\ApiAppController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:46:27 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\ApiAppController.php(26): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:46:28 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\ApiAppController.php(26): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:46:29 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\ApiAppController.php(26): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:46:30 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\ApiAppController.php(26): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:46:31 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\ApiAppController.php(26): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:46:32 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\ApiAppController.php(26): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:46:49 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\ApiAppController.php(26): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:46:50 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\ApiAppController.php(26): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:46:50 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\ApiAppController.php(26): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:46:51 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\ApiAppController.php(26): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:46:52 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\ApiAppController.php(26): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:46:53 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\ApiAppController.php(26): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:46:54 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\ApiAppController.php(26): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:46:55 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\ApiAppController.php(26): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:49:13 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\ApiAppController.php(26): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 23:54:57 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\ApiAppController.php(26): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,16 @@
+CRITICAL - 2023-06-11 23:19:42 --> Undefined property: stdClass::$id
+in APPPATH/Models/AvanceModel.php on line 331.
+ 1 APPPATH/Models/AvanceModel.php(331): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH/Models/AvanceModel.php', 331)
+ 2 APPPATH/Controllers/Avance.php(142): App\Models\AvanceModel->modifyInsumos([...], [...], [...], [...])
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Avance->register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avance))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 23:21:55 --> Undefined property: stdClass::$id
+in APPPATH/Models/AvanceModel.php on line 331.
+ 1 APPPATH/Models/AvanceModel.php(331): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH/Models/AvanceModel.php', 331)
+ 2 APPPATH/Controllers/Avance.php(142): App\Models\AvanceModel->modifyInsumos([...], [...], [...], [...])
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Avance->register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avance))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

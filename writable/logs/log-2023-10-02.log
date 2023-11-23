@@ -1,0 +1,154 @@
+ERROR - 2023-10-02 15:37:05 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'documentos', 3306, '', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\app\app\Models\DocumentosModel.php(20): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#4 C:\xampp\htdocs\app\app\Controllers\FileUpload.php(115): App\Models\DocumentosModel->getdocumentosejecutora()
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\FileUpload->documentosejecutora()
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\app\app\Models\DocumentosModel.php(20): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#3 C:\xampp\htdocs\app\app\Controllers\FileUpload.php(115): App\Models\DocumentosModel->getdocumentosejecutora()
+#4 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\FileUpload->documentosejecutora()
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-02 15:37:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DocumentosModel.php(20): CodeIgniter\Database\BaseConnection->query('SELECT * FROM documentos_qr where proceso_status=\'Ilegible\'')
+ 3 APPPATH\Controllers\FileUpload.php(115): App\Models\DocumentosModel->getdocumentosejecutora()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FileUpload->documentosejecutora()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 15:37:09 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'documentos', 3306, '', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(31): App\Models\ExpedienteModel->partidatotal(1)
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->expedientes()
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT...')
+#3 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(31): App\Models\ExpedienteModel->partidatotal(1)
+#4 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->expedientes()
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-02 15:37:09 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\ExpedienteModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT(*) as totaldocumentos FROM universo inner JOIN obra_expediente ON universo.universo_id=obra_expediente.obra INNER JOIN expediente_catalogo on obra_expediente.num_expediente=expediente_catalogo.num INNER JOIN expediente_subtitulo on expediente_catalogo.subtitulo=expediente_subtitulo.subtitulo_id INNER JOIN expediente_titulo on expediente_subtitulo.titulo=expediente_titulo.titulo_id WHERE expediente_titulo.titulo_id=\'1\' GROUP by universo.universo_id')
+ 3 APPPATH\Controllers\ExpedienteObra.php(31): App\Models\ExpedienteModel->partidatotal(1)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->expedientes()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 15:41:48 --> mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, COUNT...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, COUNT...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, COUNT...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(31): App\Models\ExpedienteModel->partidatotal(1)
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->expedientes()
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 15:41:48 --> MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ExpedienteModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT(*) as totaldocumentos FROM universo inner JOIN obra_expediente ON universo.universo_id=obra_expediente.obra INNER JOIN expediente_catalogo on obra_expediente.num_expediente=expediente_catalogo.num INNER JOIN expediente_subtitulo on expediente_catalogo.subtitulo=expediente_subtitulo.subtitulo_id INNER JOIN expediente_titulo on expediente_subtitulo.titulo=expediente_titulo.titulo_id WHERE expediente_titulo.titulo_id=\'1\' GROUP by universo.universo_id')
+ 2 APPPATH\Controllers\ExpedienteObra.php(31): App\Models\ExpedienteModel->partidatotal(1)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->expedientes()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 20:20:40 --> Undefined property: stdClass::$totalexpedienteEjecutora
+in APPPATH\Views\expediente.php on line 67.
+ 1 APPPATH\Views\expediente.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$totalexpedienteEjecutora', 'APPPATH\\Views\\expediente.php', 67)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\expediente.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('expediente', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(42): view('expediente', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->expedientes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 20:43:14 --> DateTime::diff(): Argument #1 ($targetObject) must be of type DateTimeInterface, string given
+in APPPATH\Views\expediente.php on line 42.
+ 1 APPPATH\Views\expediente.php(42): DateTime->diff('2023-10-02')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\expediente.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('expediente', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(42): view('expediente', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->expedientes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 20:43:38 --> DateTime::diff(): Argument #1 ($targetObject) must be of type DateTimeInterface, string given
+in APPPATH\Views\expediente.php on line 42.
+ 1 APPPATH\Views\expediente.php(42): DateTime->diff('02-10-2023')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\expediente.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('expediente', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(42): view('expediente', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->expedientes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 20:50:07 --> Undefined variable $m
+in APPPATH\Views\expediente.php on line 37.
+ 1 APPPATH\Views\expediente.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $m', 'APPPATH\\Views\\expediente.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\expediente.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('expediente', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(42): view('expediente', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->expedientes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 23:13:23 --> Undefined property: stdClass::$totalXobra
+in APPPATH\Views\expediente.php on line 41.
+ 1 APPPATH\Views\expediente.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$totalXobra', 'APPPATH\\Views\\expediente.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\expediente.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('expediente', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(42): view('expediente', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->expedientes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 23:29:56 --> Undefined variable $totaldocumentosinenviar
+in APPPATH\Views\expediente.php on line 94.
+ 1 APPPATH\Views\expediente.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totaldocumentosinenviar', 'APPPATH\\Views\\expediente.php', 94)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\expediente.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('expediente', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(42): view('expediente', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->expedientes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

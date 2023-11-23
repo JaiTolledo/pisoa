@@ -1,0 +1,43 @@
+CRITICAL - 2023-06-20 11:19:46 --> Attempt to read property "status_validacion" on null
+in APPPATH/Models/ValidacionModel.php on line 40.
+ 1 APPPATH/Models/ValidacionModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "status_validacion" on null', 'APPPATH/Models/ValidacionModel.php', 40)
+ 2 APPPATH/Controllers/Universo.php(304): App\Models\ValidacionModel->getValidacionUniverso('0')
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->add('0')
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 12:21:09 --> Attempt to read property "status_validacion" on null
+in APPPATH/Models/ValidacionModel.php on line 40.
+ 1 APPPATH/Models/ValidacionModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "status_validacion" on null', 'APPPATH/Models/ValidacionModel.php', 40)
+ 2 APPPATH/Controllers/Universo.php(304): App\Models\ValidacionModel->getValidacionUniverso('0')
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->add('0')
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 19:28:50 --> Undefined variable $periodos
+in APPPATH/Views/capturas/capturas_item.php on line 126.
+ 1 APPPATH/Views/capturas/capturas_item.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $periodos', 'APPPATH/Views/capturas/capturas_item.php', 126)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/capturas/capturas_item.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('capturas/capturas_item', [], true)
+ 5 APPPATH/Controllers/Captura.php(28): view('capturas/capturas_item', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captura->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Captura))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 17:17:17 --> Attempt to read property "status_validacion" on null
+in APPPATH/Models/ValidacionModel.php on line 40.
+ 1 APPPATH/Models/ValidacionModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "status_validacion" on null', 'APPPATH/Models/ValidacionModel.php', 40)
+ 2 APPPATH/Controllers/Universo.php(304): App\Models\ValidacionModel->getValidacionUniverso('0')
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->add('0')
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 18:20:13 --> Attempt to read property "status_validacion" on null
+in APPPATH/Models/ValidacionModel.php on line 47.
+ 1 APPPATH/Models/ValidacionModel.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "status_validacion" on null', 'APPPATH/Models/ValidacionModel.php', 47)
+ 2 APPPATH/Controllers/Licitacion.php(33): App\Models\ValidacionModel->getValidacionLicitacion('532')
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Licitacion->item('532')
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Licitacion))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

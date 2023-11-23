@@ -1,0 +1,11 @@
+CRITICAL - 2023-06-03 17:22:20 --> Attempt to read property "importe" on null
+in APPPATH/Views/contrato/contrato_register.php on line 168.
+ 1 APPPATH/Views/contrato/contrato_register.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "importe" on null', 'APPPATH/Views/contrato/contrato_register.php', 168)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/contrato/contrato_register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('contrato/contrato_register', [], true)
+ 5 APPPATH/Controllers/Obra.php(299): view('contrato/contrato_register', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Obra->contrato('5')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

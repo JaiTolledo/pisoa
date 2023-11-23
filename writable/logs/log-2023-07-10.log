@@ -1,0 +1,15 @@
+CRITICAL - 2023-07-10 12:05:20 --> Attempt to read property "status_validacion" on null
+in APPPATH/Models/ValidacionModel.php on line 40.
+ 1 APPPATH/Models/ValidacionModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "status_validacion" on null', 'APPPATH/Models/ValidacionModel.php', 40)
+ 2 APPPATH/Controllers/Universo.php(304): App\Models\ValidacionModel->getValidacionUniverso('0')
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->add('0')
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 18:05:49 --> Division by zero
+in APPPATH/Models/UniversoModel.php on line 723.
+ 1 APPPATH/Controllers/Universo.php(501): App\Models\UniversoModel->getGraficaPortafolio(2023, [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->graficaPortafolio()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

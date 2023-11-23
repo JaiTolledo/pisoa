@@ -1,0 +1,1142 @@
+CRITICAL - 2023-11-17 16:30:33 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:30:35 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:30:36 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:30:37 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:30:38 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:30:38 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:31:12 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:31:13 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:31:14 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:31:34 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:31:35 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:31:36 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:34:22 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:34:23 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:34:24 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:34:35 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:34:36 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:34:37 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:34:38 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:35:12 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:35:13 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:35:14 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:35:15 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:35:16 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:35:16 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:35:17 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:35:18 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:35:19 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 87.
+ 1 APPPATH\Controllers\ApiAppController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:36:40 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:36:41 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:37:13 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:37:14 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:37:15 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:37:16 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:37:17 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:37:18 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:37:19 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:37:20 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:37:22 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:37:30 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:37:32 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:37:47 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:37:48 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:38:24 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:38:24 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:38:25 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:38:30 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:38:31 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:38:32 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:38:33 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:38:40 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:38:41 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:38:42 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:38:43 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:42:06 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:42:07 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:42:07 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:42:08 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:42:09 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:42:11 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:42:12 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:43:42 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:43:44 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:43:44 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:43:45 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:43:46 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:43:47 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:43:48 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:43:49 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:43:50 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:43:51 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:43:52 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:43:53 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:43:54 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:43:55 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:43:56 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 16:43:58 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 88.
+ 1 APPPATH\Controllers\ApiAppController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 17:40:35 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\ApiAppController.php(104): CodeIgniter\Model->__call('login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->loginUser()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 17:40:38 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\ApiAppController.php(104): CodeIgniter\Model->__call('login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->loginUser()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 17:41:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\ApiAppController.php(104): CodeIgniter\Model->__call('login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->loginUser()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 19:56:30 --> Attempt to read property "obra" on null
+in APPPATH\Models\ApiModel.php on line 56.
+ 1 APPPATH\Models\ApiModel.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "obra" on null', 'APPPATH\\Models\\ApiModel.php', 56)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 19:56:32 --> Attempt to read property "obra" on null
+in APPPATH\Models\ApiModel.php on line 56.
+ 1 APPPATH\Models\ApiModel.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "obra" on null', 'APPPATH\\Models\\ApiModel.php', 56)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 19:56:33 --> Attempt to read property "obra" on null
+in APPPATH\Models\ApiModel.php on line 56.
+ 1 APPPATH\Models\ApiModel.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "obra" on null', 'APPPATH\\Models\\ApiModel.php', 56)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:00:09 --> Attempt to read property "obra" on null
+in APPPATH\Models\ApiModel.php on line 55.
+ 1 APPPATH\Models\ApiModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "obra" on null', 'APPPATH\\Models\\ApiModel.php', 55)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:00:13 --> Attempt to read property "obra" on null
+in APPPATH\Models\ApiModel.php on line 55.
+ 1 APPPATH\Models\ApiModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "obra" on null', 'APPPATH\\Models\\ApiModel.php', 55)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:00:21 --> Attempt to read property "obra" on null
+in APPPATH\Models\ApiModel.php on line 55.
+ 1 APPPATH\Models\ApiModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "obra" on null', 'APPPATH\\Models\\ApiModel.php', 55)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:00:22 --> Attempt to read property "obra" on null
+in APPPATH\Models\ApiModel.php on line 55.
+ 1 APPPATH\Models\ApiModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "obra" on null', 'APPPATH\\Models\\ApiModel.php', 55)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:01:18 --> Attempt to read property "obra" on null
+in APPPATH\Models\ApiModel.php on line 55.
+ 1 APPPATH\Models\ApiModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "obra" on null', 'APPPATH\\Models\\ApiModel.php', 55)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:03:12 --> Attempt to read property "obra" on null
+in APPPATH\Models\ApiModel.php on line 55.
+ 1 APPPATH\Models\ApiModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "obra" on null', 'APPPATH\\Models\\ApiModel.php', 55)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:04:04 --> Attempt to read property "obra" on null
+in APPPATH\Models\ApiModel.php on line 55.
+ 1 APPPATH\Models\ApiModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "obra" on null', 'APPPATH\\Models\\ApiModel.php', 55)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:04:09 --> Attempt to read property "obra" on null
+in APPPATH\Models\ApiModel.php on line 55.
+ 1 APPPATH\Models\ApiModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "obra" on null', 'APPPATH\\Models\\ApiModel.php', 55)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:04:11 --> Attempt to read property "obra" on null
+in APPPATH\Models\ApiModel.php on line 55.
+ 1 APPPATH\Models\ApiModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "obra" on null', 'APPPATH\\Models\\ApiModel.php', 55)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:04:12 --> Attempt to read property "obra" on null
+in APPPATH\Models\ApiModel.php on line 55.
+ 1 APPPATH\Models\ApiModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "obra" on null', 'APPPATH\\Models\\ApiModel.php', 55)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:05:14 --> Attempt to read property "obra" on null
+in APPPATH\Models\ApiModel.php on line 55.
+ 1 APPPATH\Models\ApiModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "obra" on null', 'APPPATH\\Models\\ApiModel.php', 55)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:05:16 --> Attempt to read property "obra" on null
+in APPPATH\Models\ApiModel.php on line 55.
+ 1 APPPATH\Models\ApiModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "obra" on null', 'APPPATH\\Models\\ApiModel.php', 55)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:05:16 --> Attempt to read property "obra" on null
+in APPPATH\Models\ApiModel.php on line 55.
+ 1 APPPATH\Models\ApiModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "obra" on null', 'APPPATH\\Models\\ApiModel.php', 55)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:05:17 --> Attempt to read property "obra" on null
+in APPPATH\Models\ApiModel.php on line 55.
+ 1 APPPATH\Models\ApiModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "obra" on null', 'APPPATH\\Models\\ApiModel.php', 55)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:05:18 --> Attempt to read property "obra" on null
+in APPPATH\Models\ApiModel.php on line 55.
+ 1 APPPATH\Models\ApiModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "obra" on null', 'APPPATH\\Models\\ApiModel.php', 55)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:07:51 --> Attempt to read property "obra" on null
+in APPPATH\Models\ApiModel.php on line 55.
+ 1 APPPATH\Models\ApiModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "obra" on null', 'APPPATH\\Models\\ApiModel.php', 55)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:07:53 --> Attempt to read property "obra" on null
+in APPPATH\Models\ApiModel.php on line 55.
+ 1 APPPATH\Models\ApiModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "obra" on null', 'APPPATH\\Models\\ApiModel.php', 55)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:07:54 --> Attempt to read property "obra" on null
+in APPPATH\Models\ApiModel.php on line 55.
+ 1 APPPATH\Models\ApiModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "obra" on null', 'APPPATH\\Models\\ApiModel.php', 55)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:07:55 --> Attempt to read property "obra" on null
+in APPPATH\Models\ApiModel.php on line 55.
+ 1 APPPATH\Models\ApiModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "obra" on null', 'APPPATH\\Models\\ApiModel.php', 55)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:07:56 --> Attempt to read property "obra" on null
+in APPPATH\Models\ApiModel.php on line 55.
+ 1 APPPATH\Models\ApiModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "obra" on null', 'APPPATH\\Models\\ApiModel.php', 55)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:15:23 --> Undefined property: stdClass::$date
+in APPPATH\Models\ApiModel.php on line 57.
+ 1 APPPATH\Models\ApiModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$date', 'APPPATH\\Models\\ApiModel.php', 57)
+ 2 APPPATH\Controllers\ApiAppController.php(114): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:15:34 --> Undefined property: stdClass::$date
+in APPPATH\Models\ApiModel.php on line 57.
+ 1 APPPATH\Models\ApiModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$date', 'APPPATH\\Models\\ApiModel.php', 57)
+ 2 APPPATH\Controllers\ApiAppController.php(114): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:15:36 --> Undefined property: stdClass::$date
+in APPPATH\Models\ApiModel.php on line 57.
+ 1 APPPATH\Models\ApiModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$date', 'APPPATH\\Models\\ApiModel.php', 57)
+ 2 APPPATH\Controllers\ApiAppController.php(114): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:15:39 --> Undefined property: stdClass::$date
+in APPPATH\Models\ApiModel.php on line 57.
+ 1 APPPATH\Models\ApiModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$date', 'APPPATH\\Models\\ApiModel.php', 57)
+ 2 APPPATH\Controllers\ApiAppController.php(114): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:15:40 --> Undefined property: stdClass::$date
+in APPPATH\Models\ApiModel.php on line 57.
+ 1 APPPATH\Models\ApiModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$date', 'APPPATH\\Models\\ApiModel.php', 57)
+ 2 APPPATH\Controllers\ApiAppController.php(114): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:15:41 --> Undefined property: stdClass::$date
+in APPPATH\Models\ApiModel.php on line 57.
+ 1 APPPATH\Models\ApiModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$date', 'APPPATH\\Models\\ApiModel.php', 57)
+ 2 APPPATH\Controllers\ApiAppController.php(114): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:18:18 --> Undefined property: stdClass::$date
+in APPPATH\Models\ApiModel.php on line 57.
+ 1 APPPATH\Models\ApiModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$date', 'APPPATH\\Models\\ApiModel.php', 57)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:18:29 --> Undefined property: stdClass::$date
+in APPPATH\Models\ApiModel.php on line 57.
+ 1 APPPATH\Models\ApiModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$date', 'APPPATH\\Models\\ApiModel.php', 57)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:18:30 --> Undefined property: stdClass::$date
+in APPPATH\Models\ApiModel.php on line 57.
+ 1 APPPATH\Models\ApiModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$date', 'APPPATH\\Models\\ApiModel.php', 57)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:18:45 --> Undefined property: stdClass::$date
+in APPPATH\Models\ApiModel.php on line 57.
+ 1 APPPATH\Models\ApiModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$date', 'APPPATH\\Models\\ApiModel.php', 57)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:18:46 --> Undefined property: stdClass::$date
+in APPPATH\Models\ApiModel.php on line 57.
+ 1 APPPATH\Models\ApiModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$date', 'APPPATH\\Models\\ApiModel.php', 57)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:19:25 --> Undefined property: stdClass::$date
+in APPPATH\Models\ApiModel.php on line 57.
+ 1 APPPATH\Models\ApiModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$date', 'APPPATH\\Models\\ApiModel.php', 57)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:19:26 --> Undefined property: stdClass::$date
+in APPPATH\Models\ApiModel.php on line 57.
+ 1 APPPATH\Models\ApiModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$date', 'APPPATH\\Models\\ApiModel.php', 57)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:19:27 --> Undefined property: stdClass::$date
+in APPPATH\Models\ApiModel.php on line 57.
+ 1 APPPATH\Models\ApiModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$date', 'APPPATH\\Models\\ApiModel.php', 57)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:19:28 --> Undefined property: stdClass::$date
+in APPPATH\Models\ApiModel.php on line 57.
+ 1 APPPATH\Models\ApiModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$date', 'APPPATH\\Models\\ApiModel.php', 57)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:19:29 --> Undefined property: stdClass::$date
+in APPPATH\Models\ApiModel.php on line 57.
+ 1 APPPATH\Models\ApiModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$date', 'APPPATH\\Models\\ApiModel.php', 57)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:24:46 --> Attempt to read property "equipo" on string
+in APPPATH\Models\ApiModel.php on line 83.
+ 1 APPPATH\Models\ApiModel.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "equipo" on string', 'APPPATH\\Models\\ApiModel.php', 83)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:24:48 --> Attempt to read property "equipo" on string
+in APPPATH\Models\ApiModel.php on line 83.
+ 1 APPPATH\Models\ApiModel.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "equipo" on string', 'APPPATH\\Models\\ApiModel.php', 83)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:25:55 --> Attempt to read property "equipo" on string
+in APPPATH\Models\ApiModel.php on line 83.
+ 1 APPPATH\Models\ApiModel.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "equipo" on string', 'APPPATH\\Models\\ApiModel.php', 83)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:25:56 --> Attempt to read property "equipo" on string
+in APPPATH\Models\ApiModel.php on line 83.
+ 1 APPPATH\Models\ApiModel.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "equipo" on string', 'APPPATH\\Models\\ApiModel.php', 83)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:31:44 --> Undefined property: stdClass::$equipo
+in APPPATH\Models\ApiModel.php on line 94.
+ 1 APPPATH\Models\ApiModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$equipo', 'APPPATH\\Models\\ApiModel.php', 94)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:31:47 --> Undefined property: stdClass::$equipo
+in APPPATH\Models\ApiModel.php on line 94.
+ 1 APPPATH\Models\ApiModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$equipo', 'APPPATH\\Models\\ApiModel.php', 94)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-17 20:33:13 --> mysqli_sql_exception: Unknown column 'herramienta' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(98): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-17 20:33:13 --> Unknown column 'herramienta' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_maquinaria` (`avance`, `herramienta`, `cantidad`) VALUES (:avance:, :herramienta:, :cantidad:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(98): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:33:31 --> Undefined property: stdClass::$maquinaria
+in APPPATH\Models\ApiModel.php on line 94.
+ 1 APPPATH\Models\ApiModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$maquinaria', 'APPPATH\\Models\\ApiModel.php', 94)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:38:31 --> Undefined property: stdClass::$maquinaria
+in APPPATH\Models\ApiModel.php on line 94.
+ 1 APPPATH\Models\ApiModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$maquinaria', 'APPPATH\\Models\\ApiModel.php', 94)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:39:08 --> Undefined property: stdClass::$maquinarias
+in APPPATH\Models\ApiModel.php on line 91.
+ 1 APPPATH\Models\ApiModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$maquinarias', 'APPPATH\\Models\\ApiModel.php', 91)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:39:09 --> Undefined property: stdClass::$maquinarias
+in APPPATH\Models\ApiModel.php on line 91.
+ 1 APPPATH\Models\ApiModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$maquinarias', 'APPPATH\\Models\\ApiModel.php', 91)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:39:43 --> Undefined property: stdClass::$maquinaria
+in APPPATH\Models\ApiModel.php on line 94.
+ 1 APPPATH\Models\ApiModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$maquinaria', 'APPPATH\\Models\\ApiModel.php', 94)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:39:45 --> Undefined property: stdClass::$maquinaria
+in APPPATH\Models\ApiModel.php on line 94.
+ 1 APPPATH\Models\ApiModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$maquinaria', 'APPPATH\\Models\\ApiModel.php', 94)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:39:46 --> Undefined property: stdClass::$maquinaria
+in APPPATH\Models\ApiModel.php on line 94.
+ 1 APPPATH\Models\ApiModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$maquinaria', 'APPPATH\\Models\\ApiModel.php', 94)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:39:47 --> Undefined property: stdClass::$maquinaria
+in APPPATH\Models\ApiModel.php on line 94.
+ 1 APPPATH\Models\ApiModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$maquinaria', 'APPPATH\\Models\\ApiModel.php', 94)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:39:48 --> Undefined property: stdClass::$maquinaria
+in APPPATH\Models\ApiModel.php on line 94.
+ 1 APPPATH\Models\ApiModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$maquinaria', 'APPPATH\\Models\\ApiModel.php', 94)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 20:42:51 --> Undefined property: stdClass::$maquinaria
+in APPPATH\Models\ApiModel.php on line 94.
+ 1 APPPATH\Models\ApiModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$maquinaria', 'APPPATH\\Models\\ApiModel.php', 94)
+ 2 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-17 21:47:39 --> mysqli_sql_exception: Unknown column 'hombre' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(134): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-17 21:47:39 --> Unknown column 'hombre' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_personal` (`avance`, `personal`, `cantidad`, `hombre`, `mujeres`) VALUES (:avance:, :personal:, :cantidad:, :hombre:, :mujeres:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(134): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-17 21:48:21 --> mysqli_sql_exception: Unknown column 'hombre' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(134): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-17 21:48:21 --> Unknown column 'hombre' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_personal` (`avance`, `personal`, `cantidad`, `hombre`, `mujeres`) VALUES (:avance:, :personal:, :cantidad:, :hombre:, :mujeres:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(134): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(113): App\Models\ApiModel->insertar(Object(stdClass))
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 22:23:28 --> Undefined array key "user"
+in APPPATH\Controllers\ApiAppController.php on line 82.
+ 1 APPPATH\Controllers\ApiAppController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user"', 'APPPATH\\Controllers\\ApiAppController.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->loginUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 22:30:06 --> Undefined array key "user"
+in APPPATH\Controllers\ApiAppController.php on line 82.
+ 1 APPPATH\Controllers\ApiAppController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user"', 'APPPATH\\Controllers\\ApiAppController.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->loginUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 22:47:51 --> Undefined array key "user"
+in APPPATH\Controllers\ApiAppController.php on line 82.
+ 1 APPPATH\Controllers\ApiAppController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user"', 'APPPATH\\Controllers\\ApiAppController.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->loginUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 22:48:07 --> Undefined array key "user"
+in APPPATH\Controllers\ApiAppController.php on line 82.
+ 1 APPPATH\Controllers\ApiAppController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user"', 'APPPATH\\Controllers\\ApiAppController.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->loginUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 23:43:43 --> Undefined array key 1
+in APPPATH\Controllers\ApiAppController.php on line 77.
+ 1 APPPATH\Controllers\ApiAppController.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ApiAppController.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->loginUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 23:44:15 --> Undefined array key 0
+in APPPATH\Controllers\ApiAppController.php on line 77.
+ 1 APPPATH\Controllers\ApiAppController.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\ApiAppController.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->loginUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 23:44:23 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 77.
+ 1 APPPATH\Controllers\ApiAppController.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->loginUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 23:44:25 --> Attempt to read property "id" on array
+in APPPATH\Controllers\ApiAppController.php on line 77.
+ 1 APPPATH\Controllers\ApiAppController.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\ApiAppController.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->loginUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 23:44:37 --> Undefined array key "user"
+in APPPATH\Controllers\ApiAppController.php on line 77.
+ 1 APPPATH\Controllers\ApiAppController.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user"', 'APPPATH\\Controllers\\ApiAppController.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->loginUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 23:44:38 --> Undefined array key "user"
+in APPPATH\Controllers\ApiAppController.php on line 77.
+ 1 APPPATH\Controllers\ApiAppController.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user"', 'APPPATH\\Controllers\\ApiAppController.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->loginUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

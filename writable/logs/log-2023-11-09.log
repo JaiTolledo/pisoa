@@ -1,0 +1,1334 @@
+CRITICAL - 2023-11-09 18:11:47 --> Allowed fields must be specified for model: "App\Models\ApiModel"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\ApiModel')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\ApiAppController.php(31): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 23:29:18 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\ApiModel.php(12): CodeIgniter\Model->__get('load')
+ 4 SYSTEMPATH\Config\Factories.php(129): App\Models\ApiModel->__construct(null)
+ 5 SYSTEMPATH\Config\Factories.php(86): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 6 SYSTEMPATH\Common.php(829): CodeIgniter\Config\Factories::models('ApiModel', [...], null)
+ 7 APPPATH\Controllers\ApiAppController.php(17): model('ApiModel')
+ 8 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\ApiAppController->__construct()
+ 9 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 23:29:24 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\ApiModel.php(12): CodeIgniter\Model->__get('load')
+ 4 SYSTEMPATH\Config\Factories.php(129): App\Models\ApiModel->__construct(null)
+ 5 SYSTEMPATH\Config\Factories.php(86): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 6 SYSTEMPATH\Common.php(829): CodeIgniter\Config\Factories::models('ApiModel', [...], null)
+ 7 APPPATH\Controllers\ApiAppController.php(17): model('ApiModel')
+ 8 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\ApiAppController->__construct()
+ 9 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:35:52 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:35:52 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:35:54 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:35:54 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:35:55 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:35:55 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:35:56 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:35:56 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:35:57 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:35:57 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:35:58 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:35:58 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:36:12 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:36:12 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:36:13 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:36:13 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:36:14 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:36:14 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:36:14 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:36:14 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:36:15 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:36:15 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:36:16 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:36:16 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:36:17 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:36:17 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:36:18 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:36:18 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:36:18 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:36:18 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:36:19 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:36:19 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:36:20 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:36:20 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:36:21 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:36:21 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:36:22 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:36:22 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:36:39 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:36:39 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:36:40 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:36:40 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:37:51 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:37:51 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:37:53 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:37:53 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:37:54 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:37:54 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:37:55 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:37:55 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:37:56 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:37:56 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:37:57 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:37:57 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:37:59 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:37:59 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:38:00 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:38:00 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:38:03 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:38:03 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:38:05 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:38:05 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:38:27 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:38:27 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:38:28 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:38:28 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:38:28 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:38:28 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:38:29 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:38:29 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:38:30 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:38:30 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:38:30 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:38:30 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:38:31 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:38:31 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:38:31 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:38:31 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:38:33 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:38:33 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:38:33 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:38:33 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:38:34 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:38:34 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:38:35 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:38:35 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:38:36 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:38:36 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:38:37 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:38:37 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:38:38 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:38:38 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:38:39 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:38:39 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:38:39 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:38:39 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:39:12 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:39:12 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:40:02 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:40:02 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:41:18 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:41:18 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:41:19 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:41:19 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:41:20 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:41:20 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:42:33 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:42:33 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:42:35 --> mysqli_sql_exception: Column 'captura_tipo' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:42:35 --> Column 'captura_tipo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(65): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:54:29 --> mysqli_sql_exception: Column 'obra' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(47): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:54:29 --> Column 'obra' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`) VALUES (:obra:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(47): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:54:35 --> mysqli_sql_exception: Column 'obra' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(47): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:54:35 --> Column 'obra' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`) VALUES (:obra:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(47): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:54:51 --> mysqli_sql_exception: Column 'obra' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(47): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:54:51 --> Column 'obra' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`) VALUES (:obra:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(47): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 23:54:52 --> mysqli_sql_exception: Column 'obra' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(47): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-09 23:54:52 --> Column 'obra' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`) VALUES (:obra:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(47): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

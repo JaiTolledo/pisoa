@@ -1,0 +1,16 @@
+CRITICAL - 2023-04-21 05:51:45 --> foreach() argument must be of type array|object, null given
+in APPPATH/Models/PadronModel.php on line 54.
+ 1 APPPATH/Models/PadronModel.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH/Models/PadronModel.php', 54)
+ 2 APPPATH/Controllers/Padron.php(71): App\Models\PadronModel->modify([...], '364', null)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Padron->register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padron))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-21 05:51:56 --> foreach() argument must be of type array|object, null given
+in APPPATH/Models/PadronModel.php on line 54.
+ 1 APPPATH/Models/PadronModel.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH/Models/PadronModel.php', 54)
+ 2 APPPATH/Controllers/Padron.php(71): App\Models\PadronModel->modify([...], '364', null)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Padron->register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padron))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

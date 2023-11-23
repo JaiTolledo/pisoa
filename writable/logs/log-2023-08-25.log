@@ -1,0 +1,86 @@
+CRITICAL - 2023-08-25 16:50:38 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\listas.php on line 41.
+ 1 APPPATH\Views\listas.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\listas.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('listas', [], true)
+ 5 APPPATH\Controllers\Listados.php(19): view('listas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->documentos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 16:51:57 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\listas.php on line 41.
+ 1 APPPATH\Views\listas.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\listas.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('listas', [], true)
+ 5 APPPATH\Controllers\Listados.php(19): view('listas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->documentos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 16:54:33 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\listas.php on line 43.
+ 1 APPPATH\Views\listas.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\listas.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('listas', [], true)
+ 5 APPPATH\Controllers\Listados.php(19): view('listas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->documentos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 19:19:25 --> Undefined variable $id
+in APPPATH\Views\listas.php on line 57.
+ 1 APPPATH\Views\listas.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\listas.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('listas', [], true)
+ 5 APPPATH\Controllers\Listados.php(19): view('listas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->documentos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 19:23:17 --> Undefined property: stdClass::$storage_local
+in APPPATH\Controllers\Listados.php on line 25.
+ 1 APPPATH\Controllers\Listados.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$storage_local', 'APPPATH\\Controllers\\Listados.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->qrdocumentos('FCPATH\\6')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 20:59:14 --> Undefined property: stdClass::$storage_local
+in APPPATH\Controllers\Listados.php on line 25.
+ 1 APPPATH\Controllers\Listados.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$storage_local', 'APPPATH\\Controllers\\Listados.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->qrdocumentos('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 20:59:21 --> Undefined property: stdClass::$storage_local
+in APPPATH\Controllers\Listados.php on line 25.
+ 1 APPPATH\Controllers\Listados.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$storage_local', 'APPPATH\\Controllers\\Listados.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->qrdocumentos('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 22:09:54 --> Undefined property: stdClass::$storage_local
+in APPPATH\Controllers\Listados.php on line 25.
+ 1 APPPATH\Controllers\Listados.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$storage_local', 'APPPATH\\Controllers\\Listados.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->qrdocumentos('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 22:45:03 --> Undefined property: stdClass::$storage_local
+in APPPATH\Controllers\Listados.php on line 25.
+ 1 APPPATH\Controllers\Listados.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$storage_local', 'APPPATH\\Controllers\\Listados.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->qrdocumentos('FCPATH\\5')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 23:32:09 --> Undefined property: stdClass::$storage_local
+in APPPATH\Controllers\Listados.php on line 25.
+ 1 APPPATH\Controllers\Listados.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$storage_local', 'APPPATH\\Controllers\\Listados.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->qrdocumentos('FCPATH\\6')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

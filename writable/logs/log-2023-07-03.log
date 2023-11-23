@@ -1,0 +1,124 @@
+CRITICAL - 2023-07-03 16:42:54 --> Invalid file: "portafolio/portafolio_ejecutoras.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('portafolio/portafolio_ejecutoras.php')
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('portafolio/portafolio_ejecutoras', [], true)
+ 3 APPPATH/Controllers/Portada.php(29): view('portafolio/portafolio_ejecutoras', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Portada->ejecutoras()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portada))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 17:03:21 --> Invalid file: "portafolio/portafolio_ejecutoras.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('portafolio/portafolio_ejecutoras.php')
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('portafolio/portafolio_ejecutoras', [], true)
+ 3 APPPATH/Controllers/Portada.php(29): view('portafolio/portafolio_ejecutoras', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Portada->ejecutoras()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portada))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 14:34:00 --> Attempt to read property "importe" on null
+in APPPATH/Views/contrato/contrato_register.php on line 182.
+ 1 APPPATH/Views/contrato/contrato_register.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "importe" on null', 'APPPATH/Views/contrato/contrato_register.php', 182)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/contrato/contrato_register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('contrato/contrato_register', [], true)
+ 5 APPPATH/Controllers/Obra.php(306): view('contrato/contrato_register', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Obra->contrato('5')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 14:34:18 --> Attempt to read property "importe" on null
+in APPPATH/Views/contrato/contrato_register.php on line 182.
+ 1 APPPATH/Views/contrato/contrato_register.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "importe" on null', 'APPPATH/Views/contrato/contrato_register.php', 182)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/contrato/contrato_register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('contrato/contrato_register', [], true)
+ 5 APPPATH/Controllers/Obra.php(306): view('contrato/contrato_register', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Obra->contrato('5')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 20:49:51 --> Division by zero
+in APPPATH/Models/PortadaModel.php on line 51.
+ 1 APPPATH/Controllers/Portada.php(29): App\Models\PortadaModel->getTablaEjecutoras()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Portada->ejecutoras()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portada))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 22:14:57 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Portada.php(41): CodeIgniter\Model->__call('getDetailEjecutora', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Portada->ejecutora('1')
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portada))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 22:16:59 --> Invalid file: "portafolio/portafolio_ejecutora_item.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('portafolio/portafolio_ejecutora_item.php')
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('portafolio/portafolio_ejecutora_item', [], true)
+ 3 APPPATH/Controllers/Portada.php(42): view('portafolio/portafolio_ejecutora_item', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Portada->ejecutora('1')
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portada))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 22:37:40 --> Array to string conversion
+in APPPATH/Models/UniversoModel.php on line 753.
+ 1 APPPATH/Models/UniversoModel.php(753): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH/Models/UniversoModel.php', 753)
+ 2 APPPATH/Controllers/Universo.php(429): App\Models\UniversoModel->getDataFilter(2023, [...], null)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->JSONDataFilter()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 22:38:03 --> mysqli_sql_exception: Unknown column 'filter_name' in 'where clause' in /home/caminos/public_html/admin2/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/caminos/public_html/admin2/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT * FROM `...', 0)
+#1 /home/caminos/public_html/admin2/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /home/caminos/public_html/admin2/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /home/caminos/public_html/admin2/app/Models/UniversoModel.php(770): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /home/caminos/public_html/admin2/app/Controllers/Universo.php(429): App\Models\UniversoModel->getDataFilter(2023, Array, NULL)
+#5 /home/caminos/public_html/admin2/system/CodeIgniter.php(934): App\Controllers\Universo->JSONDataFilter()
+#6 /home/caminos/public_html/admin2/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+#7 /home/caminos/public_html/admin2/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/caminos/public_html/admin2/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-03 22:38:03 --> Unknown column 'filter_name' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 APPPATH/Models/UniversoModel.php(770): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `universo_detail_min` WHERE ejercicio = 2023   AND  filter_name = \'unidad_ejecutora\'  AND  filter_comp = \'=\'  AND  filter_val = \'1\' ')
+ 2 APPPATH/Controllers/Universo.php(429): App\Models\UniversoModel->getDataFilter(2023, [...], null)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->JSONDataFilter()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 22:39:14 --> Undefined array key "nombre"
+in APPPATH/Models/UniversoModel.php on line 760.
+ 1 APPPATH/Models/UniversoModel.php(760): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'APPPATH/Models/UniversoModel.php', 760)
+ 2 APPPATH/Controllers/Universo.php(429): App\Models\UniversoModel->getDataFilter(2023, null, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->JSONDataFilter()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 22:39:43 --> Undefined array key "nombre"
+in APPPATH/Models/UniversoModel.php on line 760.
+ 1 APPPATH/Models/UniversoModel.php(760): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'APPPATH/Models/UniversoModel.php', 760)
+ 2 APPPATH/Controllers/Universo.php(429): App\Models\UniversoModel->getDataFilter(2023, null, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->JSONDataFilter()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 22:40:44 --> Undefined array key "nombre"
+in APPPATH/Models/UniversoModel.php on line 760.
+ 1 APPPATH/Models/UniversoModel.php(760): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'APPPATH/Models/UniversoModel.php', 760)
+ 2 APPPATH/Controllers/Universo.php(429): App\Models\UniversoModel->getDataFilter(2023, [...], [...])
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->JSONDataFilter()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 22:57:25 --> Undefined variable $ejecutoraID
+in APPPATH/Controllers/Portada.php on line 54.
+ 1 APPPATH/Controllers/Portada.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ejecutoraID', 'APPPATH/Controllers/Portada.php', 54)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Portada->graficaAvance('1')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portada))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

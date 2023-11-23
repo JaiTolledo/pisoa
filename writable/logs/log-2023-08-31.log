@@ -1,0 +1,11 @@
+CRITICAL - 2023-08-31 20:21:58 --> Undefined variable $id
+in APPPATH\Views\listas.php on line 115.
+ 1 APPPATH\Views\listas.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\listas.php', 115)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('listas', [], true)
+ 5 APPPATH\Controllers\Listados.php(19): view('listas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->documentos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

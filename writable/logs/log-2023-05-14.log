@@ -1,0 +1,24 @@
+CRITICAL - 2023-05-14 18:15:55 --> Attempt to read property "columna" on null
+in APPPATH/Models/UniversoModel.php on line 588.
+ 1 APPPATH/Models/UniversoModel.php(588): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "columna" on null', 'APPPATH/Models/UniversoModel.php', 588)
+ 2 APPPATH/Controllers/Home.php(82): App\Models\UniversoModel->getGraficaByFilter('cartera')
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->planeacion('cartera')
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 18:16:03 --> Attempt to read property "columna" on null
+in APPPATH/Models/UniversoModel.php on line 588.
+ 1 APPPATH/Models/UniversoModel.php(588): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "columna" on null', 'APPPATH/Models/UniversoModel.php', 588)
+ 2 APPPATH/Controllers/Home.php(82): App\Models\UniversoModel->getGraficaByFilter('cartera')
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->planeacion('cartera')
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 18:32:46 --> Attempt to read property "columna" on null
+in APPPATH/Models/UniversoModel.php on line 588.
+ 1 APPPATH/Models/UniversoModel.php(588): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "columna" on null', 'APPPATH/Models/UniversoModel.php', 588)
+ 2 APPPATH/Controllers/Home.php(82): App\Models\UniversoModel->getGraficaByFilter('cartera')
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->planeacion('cartera')
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

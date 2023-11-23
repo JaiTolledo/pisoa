@@ -1,0 +1,58 @@
+CRITICAL - 2023-08-22 20:12:32 --> Cannot call constructor
+in APPPATH\Controllers\DocumentosController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DocumentosController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 20:12:45 --> Cannot call constructor
+in APPPATH\Controllers\DocumentosController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DocumentosController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 20:16:06 --> Cannot call constructor
+in APPPATH\Controllers\DocumentosController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DocumentosController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 20:16:32 --> Undefined property: App\Controllers\DocumentosController::$load
+in APPPATH\Controllers\DocumentosController.php on line 10.
+ 1 APPPATH\Controllers\DocumentosController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DocumentosController::$load', 'APPPATH\\Controllers\\DocumentosController.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DocumentosController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 20:17:40 --> Cannot call constructor
+in APPPATH\Controllers\DocumentosController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DocumentosController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 20:38:39 --> Undefined property: App\Controllers\DocumentosController::$load
+in APPPATH\Controllers\DocumentosController.php on line 21.
+ 1 APPPATH\Controllers\DocumentosController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DocumentosController::$load', 'APPPATH\\Controllers\\DocumentosController.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocumentosController->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 20:44:56 --> Undefined property: App\Controllers\DocumentosController::$load
+in APPPATH\Controllers\DocumentosController.php on line 21.
+ 1 APPPATH\Controllers\DocumentosController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DocumentosController::$load', 'APPPATH\\Controllers\\DocumentosController.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocumentosController->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 20:53:05 --> Undefined property: App\Controllers\DocumentosController::$load
+in APPPATH\Controllers\DocumentosController.php on line 21.
+ 1 APPPATH\Controllers\DocumentosController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DocumentosController::$load', 'APPPATH\\Controllers\\DocumentosController.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocumentosController->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 22:20:52 --> Cannot call constructor
+in APPPATH\Controllers\DocumentosController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DocumentosController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

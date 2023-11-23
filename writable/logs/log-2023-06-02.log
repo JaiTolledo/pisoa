@@ -1,0 +1,14 @@
+CRITICAL - 2023-06-02 17:51:16 --> Division by zero
+in APPPATH/Models/UniversoModel.php on line 708.
+ 1 APPPATH/Controllers/Universo.php(476): App\Models\UniversoModel->getGraficaPortafolio(2023, [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->graficaPortafolio()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 17:55:52 --> Division by zero
+in APPPATH/Models/UniversoModel.php on line 708.
+ 1 APPPATH/Controllers/Universo.php(476): App\Models\UniversoModel->getGraficaPortafolio(2023, [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->graficaPortafolio()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

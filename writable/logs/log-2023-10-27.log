@@ -1,0 +1,66 @@
+ERROR - 2023-10-27 00:00:32 --> mysqli_sql_exception: Table 'documentos.entidades' doesn't exist in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('select entidad_...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select entidad_...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select entidad_...')
+#3 C:\xampp\htdocs\app\app\Models\CapturaModel.php(65): CodeIgniter\Database\BaseConnection->query('select entidad_...')
+#4 C:\xampp\htdocs\app\app\Controllers\Captura.php(26): App\Models\CapturaModel->getAll(2023)
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\Captura->index()
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Captura))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-27 00:00:32 --> Table 'documentos.entidades' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\CapturaModel.php(65): CodeIgniter\Database\BaseConnection->query('select entidad_nombre,entidad from entidades 
+        inner join (
+        SELECT distinct entidad FROM universo where ejercicio = 2023) as a on a.entidad=entidades.entidad_id ')
+ 2 APPPATH\Controllers\Captura.php(26): App\Models\CapturaModel->getAll(2023)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Captura->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Captura))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 16:45:58 --> mysqli_sql_exception: Table 'documentos.entidades' doesn't exist in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('select entidad_...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select entidad_...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select entidad_...')
+#3 C:\xampp\htdocs\app\app\Models\CapturaModel.php(65): CodeIgniter\Database\BaseConnection->query('select entidad_...')
+#4 C:\xampp\htdocs\app\app\Controllers\Captura.php(26): App\Models\CapturaModel->getAll(2023)
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\Captura->index()
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Captura))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-27 16:45:58 --> Table 'documentos.entidades' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\CapturaModel.php(65): CodeIgniter\Database\BaseConnection->query('select entidad_nombre,entidad from entidades 
+        inner join (
+        SELECT distinct entidad FROM universo where ejercicio = 2023) as a on a.entidad=entidades.entidad_id ')
+ 2 APPPATH\Controllers\Captura.php(26): App\Models\CapturaModel->getAll(2023)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Captura->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Captura))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 22:48:28 --> mysqli_sql_exception: Table 'documentos.entidades' doesn't exist in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('select entidad_...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select entidad_...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select entidad_...')
+#3 C:\xampp\htdocs\app\app\Models\CapturaModel.php(65): CodeIgniter\Database\BaseConnection->query('select entidad_...')
+#4 C:\xampp\htdocs\app\app\Controllers\Captura.php(26): App\Models\CapturaModel->getAll(2023)
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\Captura->index()
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Captura))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-27 22:48:28 --> Table 'documentos.entidades' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\CapturaModel.php(65): CodeIgniter\Database\BaseConnection->query('select entidad_nombre,entidad from entidades 
+        inner join (
+        SELECT distinct entidad FROM universo where ejercicio = 2023) as a on a.entidad=entidades.entidad_id ')
+ 2 APPPATH\Controllers\Captura.php(26): App\Models\CapturaModel->getAll(2023)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Captura->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Captura))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

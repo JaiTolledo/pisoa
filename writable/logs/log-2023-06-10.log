@@ -1,0 +1,30 @@
+CRITICAL - 2023-06-10 13:01:08 --> Undefined property: stdClass::$archivo_id
+in APPPATH/Models/AvanceModel.php on line 272.
+ 1 APPPATH/Models/AvanceModel.php(272): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$archivo_id', 'APPPATH/Models/AvanceModel.php', 272)
+ 2 APPPATH/Controllers/Avance.php(104): App\Models\AvanceModel->getItem('12')
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Avance->getItem('12')
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avance))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 13:01:15 --> Undefined property: stdClass::$archivo_id
+in APPPATH/Models/AvanceModel.php on line 272.
+ 1 APPPATH/Models/AvanceModel.php(272): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$archivo_id', 'APPPATH/Models/AvanceModel.php', 272)
+ 2 APPPATH/Controllers/Avance.php(104): App\Models\AvanceModel->getItem('12')
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Avance->getItem('12')
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avance))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 13:58:52 --> Too few arguments to function App\Models\AvanceModel::modifyInsumos(), 4 passed in /home/caminos/public_html/admin2/app/Controllers/Avance.php on line 142 and exactly 5 expected
+in APPPATH/Models/AvanceModel.php on line 298.
+ 1 APPPATH/Controllers/Avance.php(142): App\Models\AvanceModel->modifyInsumos([...], [], [...], [])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Avance->register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avance))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 13:59:23 --> Too few arguments to function App\Models\AvanceModel::modifyInsumos(), 4 passed in /home/caminos/public_html/admin2/app/Controllers/Avance.php on line 142 and exactly 5 expected
+in APPPATH/Models/AvanceModel.php on line 298.
+ 1 APPPATH/Controllers/Avance.php(142): App\Models\AvanceModel->modifyInsumos([...], [], [...], [])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Avance->register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avance))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

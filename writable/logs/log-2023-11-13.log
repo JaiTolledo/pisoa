@@ -1,0 +1,440 @@
+ERROR - 2023-11-13 23:41:34 --> mysqli_sql_exception: Unknown column 'avance' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-13 23:41:34 --> Unknown column 'avance' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`, `avance`, `equipo`, `cantidad`, `inactivo`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:, :avance:, :equipo:, :cantidad:, :inactivo:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 23:41:38 --> mysqli_sql_exception: Unknown column 'avance' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-13 23:41:38 --> Unknown column 'avance' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`, `avance`, `equipo`, `cantidad`, `inactivo`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:, :avance:, :equipo:, :cantidad:, :inactivo:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 23:41:39 --> mysqli_sql_exception: Unknown column 'avance' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-13 23:41:39 --> Unknown column 'avance' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`, `avance`, `equipo`, `cantidad`, `inactivo`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:, :avance:, :equipo:, :cantidad:, :inactivo:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 23:41:40 --> mysqli_sql_exception: Unknown column 'avance' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-13 23:41:40 --> Unknown column 'avance' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`, `avance`, `equipo`, `cantidad`, `inactivo`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:, :avance:, :equipo:, :cantidad:, :inactivo:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 23:53:16 --> mysqli_sql_exception: Unknown column 'avance' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-13 23:53:16 --> Unknown column 'avance' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`, `avance`, `equipo`, `cantidad`, `inactivo`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:, :avance:, :equipo:, :cantidad:, :inactivo:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 23:53:18 --> mysqli_sql_exception: Unknown column 'avance' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-13 23:53:18 --> Unknown column 'avance' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`, `avance`, `equipo`, `cantidad`, `inactivo`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:, :avance:, :equipo:, :cantidad:, :inactivo:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 23:53:20 --> mysqli_sql_exception: Unknown column 'avance' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-13 23:53:20 --> Unknown column 'avance' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`, `avance`, `equipo`, `cantidad`, `inactivo`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:, :avance:, :equipo:, :cantidad:, :inactivo:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 23:53:21 --> mysqli_sql_exception: Unknown column 'avance' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-13 23:53:21 --> Unknown column 'avance' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`, `avance`, `equipo`, `cantidad`, `inactivo`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:, :avance:, :equipo:, :cantidad:, :inactivo:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 23:53:22 --> mysqli_sql_exception: Unknown column 'avance' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-13 23:53:22 --> Unknown column 'avance' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`, `avance`, `equipo`, `cantidad`, `inactivo`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:, :avance:, :equipo:, :cantidad:, :inactivo:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 23:53:23 --> mysqli_sql_exception: Unknown column 'avance' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-13 23:53:23 --> Unknown column 'avance' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`, `avance`, `equipo`, `cantidad`, `inactivo`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:, :avance:, :equipo:, :cantidad:, :inactivo:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 23:53:24 --> mysqli_sql_exception: Unknown column 'avance' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-13 23:53:24 --> Unknown column 'avance' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`, `avance`, `equipo`, `cantidad`, `inactivo`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:, :avance:, :equipo:, :cantidad:, :inactivo:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 23:53:25 --> mysqli_sql_exception: Unknown column 'avance' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-13 23:53:25 --> Unknown column 'avance' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`, `avance`, `equipo`, `cantidad`, `inactivo`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:, :avance:, :equipo:, :cantidad:, :inactivo:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 23:53:26 --> mysqli_sql_exception: Unknown column 'avance' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-13 23:53:26 --> Unknown column 'avance' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`, `avance`, `equipo`, `cantidad`, `inactivo`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:, :avance:, :equipo:, :cantidad:, :inactivo:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 23:53:47 --> mysqli_sql_exception: Unknown column 'avance' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-13 23:53:47 --> Unknown column 'avance' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`, `avance`, `equipo`, `cantidad`, `inactivo`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:, :avance:, :equipo:, :cantidad:, :inactivo:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 23:53:48 --> mysqli_sql_exception: Unknown column 'avance' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-13 23:53:48 --> Unknown column 'avance' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`, `avance`, `equipo`, `cantidad`, `inactivo`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:, :avance:, :equipo:, :cantidad:, :inactivo:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 23:53:50 --> mysqli_sql_exception: Unknown column 'avance' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-13 23:53:50 --> Unknown column 'avance' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`, `avance`, `equipo`, `cantidad`, `inactivo`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:, :avance:, :equipo:, :cantidad:, :inactivo:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 23:53:51 --> mysqli_sql_exception: Unknown column 'avance' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-13 23:53:51 --> Unknown column 'avance' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`, `avance`, `equipo`, `cantidad`, `inactivo`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:, :avance:, :equipo:, :cantidad:, :inactivo:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 23:53:52 --> mysqli_sql_exception: Unknown column 'avance' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-13 23:53:52 --> Unknown column 'avance' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`, `avance`, `equipo`, `cantidad`, `inactivo`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:, :avance:, :equipo:, :cantidad:, :inactivo:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 23:53:53 --> mysqli_sql_exception: Unknown column 'avance' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-13 23:53:53 --> Unknown column 'avance' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`, `avance`, `equipo`, `cantidad`, `inactivo`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:, :avance:, :equipo:, :cantidad:, :inactivo:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(107): App\Models\ApiModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-13 23:54:49 --> mysqli_sql_exception: Unknown column 'obra' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(111): App\Models\ApiModel->insertar_avances_equipo(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-13 23:54:49 --> Unknown column 'obra' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_equipo` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(39): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(111): App\Models\ApiModel->insertar_avances_equipo([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

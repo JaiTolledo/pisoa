@@ -1,0 +1,32 @@
+CRITICAL - 2023-06-05 23:51:36 --> floor(): Argument #1 ($num) must be of type int|float, string given
+in FCPATH/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/Date.php on line 224.
+ 1 FCPATH/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/Date.php(224): floor('22/03/2023')
+ 2 APPPATH/Controllers/Universo.php(236): PhpOffice\PhpSpreadsheet\Shared\Date::excelToDateTimeObject('22/03/2023')
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->addBanco()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 23:52:18 --> floor(): Argument #1 ($num) must be of type int|float, string given
+in FCPATH/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/Date.php on line 224.
+ 1 FCPATH/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/Date.php(224): floor('22/03/2023')
+ 2 APPPATH/Controllers/Universo.php(236): PhpOffice\PhpSpreadsheet\Shared\Date::excelToDateTimeObject('22/03/2023')
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->addBanco()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 23:54:18 --> floor(): Argument #1 ($num) must be of type int|float, string given
+in FCPATH/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/Date.php on line 224.
+ 1 FCPATH/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/Date.php(224): floor('22/03/2023')
+ 2 APPPATH/Controllers/Universo.php(237): PhpOffice\PhpSpreadsheet\Shared\Date::excelToDateTimeObject('22/03/2023')
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->addBanco()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 23:54:29 --> floor(): Argument #1 ($num) must be of type int|float, string given
+in FCPATH/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/Date.php on line 224.
+ 1 FCPATH/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/Date.php(224): floor('22/03/2023')
+ 2 APPPATH/Controllers/Universo.php(237): PhpOffice\PhpSpreadsheet\Shared\Date::excelToDateTimeObject('22/03/2023')
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->addBanco()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

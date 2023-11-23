@@ -1,0 +1,22 @@
+CRITICAL - 2023-09-28 00:05:31 --> Undefined variable $date
+in APPPATH\Views\expediente.php on line 47.
+ 1 APPPATH\Views\expediente.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $date', 'APPPATH\\Views\\expediente.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\expediente.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('expediente', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(31): view('expediente', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->expedientes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 04:12:05 --> Undefined variable $date_future
+in APPPATH\Views\expediente.php on line 50.
+ 1 APPPATH\Views\expediente.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $date_future', 'APPPATH\\Views\\expediente.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\expediente.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('expediente', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(31): view('expediente', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->expedientes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

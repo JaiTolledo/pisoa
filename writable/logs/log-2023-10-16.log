@@ -1,0 +1,162 @@
+CRITICAL - 2023-10-16 15:56:11 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\catalogo_obras.php on line 27.
+ 1 APPPATH\Views\catalogo_obras.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\catalogo_obras.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo_obras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo_obras', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(75): view('catalogo_obras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2000')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-16 16:12:13 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`documentos`.`obra_expediente`, CONSTRAINT `fk_obra_expediente_catalogo` FOREIGN KEY (`num_expediente`) REFERENCES `expediente_catalogo` (`num`) ON UPDATE CASCADE) in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(164): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2000')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2000')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-16 16:12:13 --> Cannot add or update a child row: a foreign key constraint fails (`documentos`.`obra_expediente`, CONSTRAINT `fk_obra_expediente_catalogo` FOREIGN KEY (`num_expediente`) REFERENCES `expediente_catalogo` (`num`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ExpedienteModel.php(164): CodeIgniter\Database\BaseConnection->query('INSERT INTO obra_expediente (obra, num_expediente) VALUES (2000, 29)')
+ 2 APPPATH\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2000')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2000')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-16 16:16:02 --> mysqli_sql_exception: Unknown column '29A' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(164): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('3000')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('3000')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-16 16:16:02 --> Unknown column '29A' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ExpedienteModel.php(164): CodeIgniter\Database\BaseConnection->query('INSERT INTO obra_expediente (obra, num_expediente) VALUES (3000, 29A)')
+ 2 APPPATH\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('3000')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('3000')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-16 16:16:11 --> mysqli_sql_exception: Unknown column '29A' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(164): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('3000')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('3000')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-16 16:16:11 --> Unknown column '29A' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ExpedienteModel.php(164): CodeIgniter\Database\BaseConnection->query('INSERT INTO obra_expediente (obra, num_expediente) VALUES (3000, 29A)')
+ 2 APPPATH\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('3000')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('3000')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-16 16:16:17 --> mysqli_sql_exception: Unknown column '29A' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(164): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('3200')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('3200')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-16 16:16:17 --> Unknown column '29A' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ExpedienteModel.php(164): CodeIgniter\Database\BaseConnection->query('INSERT INTO obra_expediente (obra, num_expediente) VALUES (3200, 29A)')
+ 2 APPPATH\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('3200')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('3200')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-16 18:42:02 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`documentos`.`obra_expediente`, CONSTRAINT `fk_obra_expediente_catalogo` FOREIGN KEY (`num_expediente`) REFERENCES `expediente_catalogo` (`num`) ON UPDATE CASCADE) in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(165): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2200')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2200')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-16 18:42:02 --> Cannot add or update a child row: a foreign key constraint fails (`documentos`.`obra_expediente`, CONSTRAINT `fk_obra_expediente_catalogo` FOREIGN KEY (`num_expediente`) REFERENCES `expediente_catalogo` (`num`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ExpedienteModel.php(165): CodeIgniter\Database\BaseConnection->query('INSERT INTO obra_expediente (obra, num_expediente) VALUES (2200, 29)')
+ 2 APPPATH\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2200')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2200')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-16 18:42:15 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`documentos`.`obra_expediente`, CONSTRAINT `fk_obra_expediente_catalogo` FOREIGN KEY (`num_expediente`) REFERENCES `expediente_catalogo` (`num`) ON UPDATE CASCADE) in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(165): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2300')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2300')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-16 18:42:15 --> Cannot add or update a child row: a foreign key constraint fails (`documentos`.`obra_expediente`, CONSTRAINT `fk_obra_expediente_catalogo` FOREIGN KEY (`num_expediente`) REFERENCES `expediente_catalogo` (`num`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ExpedienteModel.php(165): CodeIgniter\Database\BaseConnection->query('INSERT INTO obra_expediente (obra, num_expediente) VALUES (2300, 29)')
+ 2 APPPATH\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2300')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2300')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 20:40:33 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\catalogo_obras.php on line 27.
+ 1 APPPATH\Views\catalogo_obras.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\catalogo_obras.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\catalogo_obras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('catalogo_obras', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(75): view('catalogo_obras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('60000')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-16 22:58:09 --> mysqli_sql_exception: Unknown column '29A' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO obr...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO obr...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO obr...')
+#3 C:\xampp\htdocs\app\app\Models\ExpedienteModel.php(172): CodeIgniter\Database\BaseConnection->query('INSERT INTO obr...')
+#4 C:\xampp\htdocs\app\app\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2001')
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2001')
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-16 22:58:09 --> Unknown column '29A' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ExpedienteModel.php(172): CodeIgniter\Database\BaseConnection->query('INSERT INTO obra_expediente (obra, num_expediente) VALUES (2001, 29A)')
+ 2 APPPATH\Controllers\ExpedienteObra.php(74): App\Models\ExpedienteModel->catalogoobras('2001')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->catalogoXobras('2001')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

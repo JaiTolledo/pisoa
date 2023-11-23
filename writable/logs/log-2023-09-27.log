@@ -1,0 +1,11 @@
+CRITICAL - 2023-09-27 22:29:49 --> Undefined property: stdClass::$oficio_autorización_fecha
+in APPPATH\Views\expediente.php on line 51.
+ 1 APPPATH\Views\expediente.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$oficio_autorización_fecha', 'APPPATH\\Views\\expediente.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\expediente.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('expediente', [], true)
+ 5 APPPATH\Controllers\ExpedienteObra.php(31): view('expediente', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExpedienteObra->expedientes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExpedienteObra))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

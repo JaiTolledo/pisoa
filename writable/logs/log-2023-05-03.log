@@ -1,0 +1,229 @@
+CRITICAL - 2023-05-03 17:30:42 --> Object of class App\Models\ExpedienteModel could not be converted to string
+in APPPATH/Controllers/Obra.php on line 244.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Obra->fichaVisita('12')
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 17:32:03 --> Object of class App\Models\ExpedienteModel could not be converted to string
+in APPPATH/Controllers/Obra.php on line 244.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Obra->fichaVisita('12')
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 17:32:33 --> Undefined property: App\Controllers\Obra::$modelExpediente
+in APPPATH/Controllers/Obra.php on line 244.
+ 1 APPPATH/Controllers/Obra.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Obra::$modelExpediente', 'APPPATH/Controllers/Obra.php', 244)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Obra->fichaVisita('12')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 17:32:36 --> Undefined property: App\Controllers\Obra::$modelExpediente
+in APPPATH/Controllers/Obra.php on line 244.
+ 1 APPPATH/Controllers/Obra.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Obra::$modelExpediente', 'APPPATH/Controllers/Obra.php', 244)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Obra->fichaVisita('12')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 17:32:49 --> syntax error, unexpected token ";"
+in APPPATH/Views/pdf/ficha_general_obra.php on line 248.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('pdf/ficha_general_obra', [], true)
+ 3 APPPATH/Controllers/Obra.php(267): view('pdf/ficha_general_obra', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Obra->fichaVisita('12')
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 17:32:52 --> syntax error, unexpected token ";"
+in APPPATH/Views/pdf/ficha_general_obra.php on line 248.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('pdf/ficha_general_obra', [], true)
+ 3 APPPATH/Controllers/Obra.php(267): view('pdf/ficha_general_obra', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Obra->fichaVisita('12')
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 17:04:43 --> Invalid file: "expediente/expediente_gral.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('expediente/expediente_gral.php')
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('expediente/expediente_gral', [], true)
+ 3 APPPATH/Controllers/Expediente.php(32): view('expediente/expediente_gral', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Expediente->gral()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expediente))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 23:20:01 --> Undefined variable $universoID
+in APPPATH/Models/UniversoModel.php on line 262.
+ 1 APPPATH/Models/UniversoModel.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $universoID', 'APPPATH/Models/UniversoModel.php', 262)
+ 2 APPPATH/Controllers/Universo.php(347): App\Models\UniversoModel->getAll(2023)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->AllJSON()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 23:20:36 --> Undefined variable $universoID
+in APPPATH/Models/UniversoModel.php on line 262.
+ 1 APPPATH/Models/UniversoModel.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $universoID', 'APPPATH/Models/UniversoModel.php', 262)
+ 2 APPPATH/Controllers/Universo.php(347): App\Models\UniversoModel->getAll(2023)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->AllJSON()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-03 23:21:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? and obra = ? and modulo_id= ?' at line 1 in /home/caminos/public_html/admin/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/caminos/public_html/admin/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT * from a...', 0)
+#1 /home/caminos/public_html/admin/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * from a...')
+#2 /home/caminos/public_html/admin/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * from a...')
+#3 /home/caminos/public_html/admin/app/Models/UniversoModel.php(262): CodeIgniter\Database\BaseConnection->query('SELECT * from a...', Array)
+#4 /home/caminos/public_html/admin/app/Controllers/Universo.php(347): App\Models\UniversoModel->getAll(2023)
+#5 /home/caminos/public_html/admin/system/CodeIgniter.php(934): App\Controllers\Universo->AllJSON()
+#6 /home/caminos/public_html/admin/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+#7 /home/caminos/public_html/admin/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/caminos/public_html/admin/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-03 23:21:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? and obra = ? and modulo_id= ?' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 APPPATH/Models/UniversoModel.php(262): CodeIgniter\Database\BaseConnection->query('SELECT * from archivo where etiqueta = ? and obra = ? and modulo_id= ?', [...])
+ 2 APPPATH/Controllers/Universo.php(347): App\Models\UniversoModel->getAll(2023)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->AllJSON()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-03 23:22:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? and obra = ? and modulo_id= ?' at line 1 in /home/caminos/public_html/admin/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/caminos/public_html/admin/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT * from a...', 0)
+#1 /home/caminos/public_html/admin/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * from a...')
+#2 /home/caminos/public_html/admin/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * from a...')
+#3 /home/caminos/public_html/admin/app/Models/UniversoModel.php(262): CodeIgniter\Database\BaseConnection->query('SELECT * from a...', Array)
+#4 /home/caminos/public_html/admin/app/Controllers/Universo.php(347): App\Models\UniversoModel->getAll(2023)
+#5 /home/caminos/public_html/admin/system/CodeIgniter.php(934): App\Controllers\Universo->AllJSON()
+#6 /home/caminos/public_html/admin/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+#7 /home/caminos/public_html/admin/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/caminos/public_html/admin/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-03 23:22:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? and obra = ? and modulo_id= ?' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 APPPATH/Models/UniversoModel.php(262): CodeIgniter\Database\BaseConnection->query('SELECT * from archivo where etiqueta = ? and obra = ? and modulo_id= ?', [...])
+ 2 APPPATH/Controllers/Universo.php(347): App\Models\UniversoModel->getAll(2023)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->AllJSON()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-03 23:22:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? and obra = ? and modulo_id= ?' at line 1 in /home/caminos/public_html/admin/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/caminos/public_html/admin/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT * from a...', 0)
+#1 /home/caminos/public_html/admin/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * from a...')
+#2 /home/caminos/public_html/admin/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * from a...')
+#3 /home/caminos/public_html/admin/app/Models/UniversoModel.php(262): CodeIgniter\Database\BaseConnection->query('SELECT * from a...', Array)
+#4 /home/caminos/public_html/admin/app/Controllers/Universo.php(347): App\Models\UniversoModel->getAll(2023)
+#5 /home/caminos/public_html/admin/system/CodeIgniter.php(934): App\Controllers\Universo->AllJSON()
+#6 /home/caminos/public_html/admin/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+#7 /home/caminos/public_html/admin/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/caminos/public_html/admin/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-03 23:22:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? and obra = ? and modulo_id= ?' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 APPPATH/Models/UniversoModel.php(262): CodeIgniter\Database\BaseConnection->query('SELECT * from archivo where etiqueta = ? and obra = ? and modulo_id= ?', [...])
+ 2 APPPATH/Controllers/Universo.php(347): App\Models\UniversoModel->getAll(2023)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->AllJSON()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-03 23:23:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? and obra = ? and modulo_id= ?' at line 1 in /home/caminos/public_html/admin/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/caminos/public_html/admin/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT * from a...', 0)
+#1 /home/caminos/public_html/admin/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * from a...')
+#2 /home/caminos/public_html/admin/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * from a...')
+#3 /home/caminos/public_html/admin/app/Models/UniversoModel.php(263): CodeIgniter\Database\BaseConnection->query('SELECT * from a...', Array)
+#4 /home/caminos/public_html/admin/app/Controllers/Universo.php(347): App\Models\UniversoModel->getAll(2023)
+#5 /home/caminos/public_html/admin/system/CodeIgniter.php(934): App\Controllers\Universo->AllJSON()
+#6 /home/caminos/public_html/admin/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+#7 /home/caminos/public_html/admin/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/caminos/public_html/admin/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-03 23:23:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? and obra = ? and modulo_id= ?' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 APPPATH/Models/UniversoModel.php(263): CodeIgniter\Database\BaseConnection->query('SELECT * from archivo where etiqueta = ? and obra = ? and modulo_id= ?', [...])
+ 2 APPPATH/Controllers/Universo.php(347): App\Models\UniversoModel->getAll(2023)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->AllJSON()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-03 23:26:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? and obra = ? and modulo_id= ?' at line 1 in /home/caminos/public_html/admin/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/caminos/public_html/admin/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT * from a...', 0)
+#1 /home/caminos/public_html/admin/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * from a...')
+#2 /home/caminos/public_html/admin/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * from a...')
+#3 /home/caminos/public_html/admin/app/Models/UniversoModel.php(280): CodeIgniter\Database\BaseConnection->query('SELECT * from a...', Array)
+#4 /home/caminos/public_html/admin/app/Controllers/Universo.php(347): App\Models\UniversoModel->getAll(2023)
+#5 /home/caminos/public_html/admin/system/CodeIgniter.php(934): App\Controllers\Universo->AllJSON()
+#6 /home/caminos/public_html/admin/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+#7 /home/caminos/public_html/admin/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/caminos/public_html/admin/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-03 23:26:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? and obra = ? and modulo_id= ?' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 APPPATH/Models/UniversoModel.php(280): CodeIgniter\Database\BaseConnection->query('SELECT * from archivo where etiqueta = ? and obra = ? and modulo_id= ?', [...])
+ 2 APPPATH/Controllers/Universo.php(347): App\Models\UniversoModel->getAll(2023)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->AllJSON()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-03 23:27:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? and obra = ? and modulo_id= ?' at line 1 in /home/caminos/public_html/admin/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/caminos/public_html/admin/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT * from a...', 0)
+#1 /home/caminos/public_html/admin/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * from a...')
+#2 /home/caminos/public_html/admin/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * from a...')
+#3 /home/caminos/public_html/admin/app/Models/UniversoModel.php(282): CodeIgniter\Database\BaseConnection->query('SELECT * from a...', Array)
+#4 /home/caminos/public_html/admin/app/Controllers/Universo.php(347): App\Models\UniversoModel->getAll(2023)
+#5 /home/caminos/public_html/admin/system/CodeIgniter.php(934): App\Controllers\Universo->AllJSON()
+#6 /home/caminos/public_html/admin/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+#7 /home/caminos/public_html/admin/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/caminos/public_html/admin/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-03 23:27:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? and obra = ? and modulo_id= ?' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 APPPATH/Models/UniversoModel.php(282): CodeIgniter\Database\BaseConnection->query('SELECT * from archivo where etiqueta = ? and obra = ? and modulo_id= ?', [...])
+ 2 APPPATH/Controllers/Universo.php(347): App\Models\UniversoModel->getAll(2023)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->AllJSON()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-03 23:28:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? and obra = 'expediente' and modulo_id= 1' at line 1 in /home/caminos/public_html/admin/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/caminos/public_html/admin/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT * from a...', 0)
+#1 /home/caminos/public_html/admin/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * from a...')
+#2 /home/caminos/public_html/admin/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * from a...')
+#3 /home/caminos/public_html/admin/app/Models/UniversoModel.php(280): CodeIgniter\Database\BaseConnection->query('SELECT * from a...')
+#4 /home/caminos/public_html/admin/app/Controllers/Universo.php(347): App\Models\UniversoModel->getAll(2023)
+#5 /home/caminos/public_html/admin/system/CodeIgniter.php(934): App\Controllers\Universo->AllJSON()
+#6 /home/caminos/public_html/admin/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+#7 /home/caminos/public_html/admin/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/caminos/public_html/admin/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-03 23:28:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? and obra = 'expediente' and modulo_id= 1' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 APPPATH/Models/UniversoModel.php(280): CodeIgniter\Database\BaseConnection->query('SELECT * from archivo where etiqueta = ? and obra = \'expediente\' and modulo_id= 1')
+ 2 APPPATH/Controllers/Universo.php(347): App\Models\UniversoModel->getAll(2023)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->AllJSON()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-03 23:28:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? and obra = ? and modulo_id= ?' at line 1 in /home/caminos/public_html/admin/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/caminos/public_html/admin/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT * from a...', 0)
+#1 /home/caminos/public_html/admin/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * from a...')
+#2 /home/caminos/public_html/admin/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * from a...')
+#3 /home/caminos/public_html/admin/app/Models/UniversoModel.php(281): CodeIgniter\Database\BaseConnection->query('SELECT * from a...', Array)
+#4 /home/caminos/public_html/admin/app/Controllers/Universo.php(347): App\Models\UniversoModel->getAll(2023)
+#5 /home/caminos/public_html/admin/system/CodeIgniter.php(934): App\Controllers\Universo->AllJSON()
+#6 /home/caminos/public_html/admin/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+#7 /home/caminos/public_html/admin/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/caminos/public_html/admin/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-03 23:28:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? and obra = ? and modulo_id= ?' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 APPPATH/Models/UniversoModel.php(281): CodeIgniter\Database\BaseConnection->query('SELECT * from archivo where etiqueta = ? and obra = ? and modulo_id= ?', [...])
+ 2 APPPATH/Controllers/Universo.php(347): App\Models\UniversoModel->getAll(2023)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->AllJSON()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

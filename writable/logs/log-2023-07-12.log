@@ -1,0 +1,29 @@
+CRITICAL - 2023-07-12 11:58:47 --> Call to undefined function nombre_mes()
+in APPPATH/Views/gerencia/gerencia_reportes.php on line 23.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('gerencia/gerencia_reportes', [], true)
+ 4 APPPATH/Controllers/Gerencia.php(65): view('gerencia/gerencia_reportes', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Gerencia->reportes()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gerencia))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-12 16:31:19 --> Undefined property: stdClass::$contratado_importe
+in APPPATH/Views/gerencia/reporte_c2a.php on line 22.
+ 1 APPPATH/Views/gerencia/reporte_c2a.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$contratado_importe', 'APPPATH/Views/gerencia/reporte_c2a.php', 22)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/gerencia/reporte_c2a.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('gerencia/reporte_c2a', [], true)
+ 5 APPPATH/Controllers/Gerencia.php(238): view('gerencia/reporte_c2a', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Gerencia->reporteC2A('7')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gerencia))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-12 19:59:23 --> Attempt to read property "status_validacion" on null
+in APPPATH/Models/ValidacionModel.php on line 40.
+ 1 APPPATH/Models/ValidacionModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "status_validacion" on null', 'APPPATH/Models/ValidacionModel.php', 40)
+ 2 APPPATH/Controllers/Universo.php(304): App\Models\ValidacionModel->getValidacionUniverso('0')
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Universo->add('0')
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Universo))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

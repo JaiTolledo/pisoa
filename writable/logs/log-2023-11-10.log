@@ -1,0 +1,114 @@
+CRITICAL - 2023-11-10 16:25:13 --> Undefined variable $obra
+in APPPATH\Controllers\ApiAppController.php on line 47.
+ 1 APPPATH\Controllers\ApiAppController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $obra', 'APPPATH\\Controllers\\ApiAppController.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-10 19:12:45 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, null given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 30
+in APPPATH\Models\ApiModel.php on line 12.
+ 1 APPPATH\Controllers\ApiAppController.php(30): App\Models\ApiModel->login(null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-10 19:12:46 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, null given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 30
+in APPPATH\Models\ApiModel.php on line 12.
+ 1 APPPATH\Controllers\ApiAppController.php(30): App\Models\ApiModel->login(null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-10 19:12:47 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, null given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 30
+in APPPATH\Models\ApiModel.php on line 12.
+ 1 APPPATH\Controllers\ApiAppController.php(30): App\Models\ApiModel->login(null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-10 19:12:48 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, null given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 30
+in APPPATH\Models\ApiModel.php on line 12.
+ 1 APPPATH\Controllers\ApiAppController.php(30): App\Models\ApiModel->login(null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-10 19:12:49 --> App\Models\ApiModel::login(): Argument #1 ($email) must be of type string, null given, called in C:\xampp\htdocs\app\app\Controllers\ApiAppController.php on line 30
+in APPPATH\Models\ApiModel.php on line 12.
+ 1 APPPATH\Controllers\ApiAppController.php(30): App\Models\ApiModel->login(null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-10 23:54:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (54, 1, '2023-11-10 23:54:23', 30, 40, 'rojo', 'ninguna', 'ninguna'...' at line 1 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(101): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-10 23:54:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (54, 1, '2023-11-10 23:54:23', 30, 40, 'rojo', 'ninguna', 'ninguna'...' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`, 0) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:, :0:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(101): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-10 23:55:36 --> Unsupported operand types: stdClass + int
+in APPPATH\Controllers\ApiAppController.php on line 77.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-10 23:55:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (54, 1, '2023-11-10 23:55:52', 30, 40, 'rojo', 'ninguna', 'ninguna'...' at line 1 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(103): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-10 23:55:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (54, 1, '2023-11-10 23:55:52', 30, 40, 'rojo', 'ninguna', 'ninguna'...' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`, 0) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:, :0:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(103): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-10 23:58:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (54, 1, '2023-11-10 23:58:30', 30, 40, 'rojo', 'ninguna', 'ninguna'...' at line 1 in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(103): App\Models\ApiModel->insertar('avances', Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-10 23:58:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (54, 1, '2023-11-10 23:58:30', 30, 40, 'rojo', 'ninguna', 'ninguna'...' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avances` (`obra`, `user_captura`, `created_at`, `porcentaje_ejecutado`, `porcentaje_programado`, `semaforo`, `observaciones_sociales`, `observaciones_tecnicas`, `personal_observaciones`, `material_observaciones`, `equipo_observaciones`, `herramienta_observaciones`, `captura_tipo`, `detenida`, `problematica`, `problematica_descripcion`, `problematica_resuelta`, 0) VALUES (:obra:, :user_captura:, :created_at:, :porcentaje_ejecutado:, :porcentaje_programado:, :semaforo:, :observaciones_sociales:, :observaciones_tecnicas:, :personal_observaciones:, :material_observaciones:, :equipo_observaciones:, :herramienta_observaciones:, :captura_tipo:, :detenida:, :problematica:, :problematica_descripcion:, :problematica_resuelta:, :0:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(103): App\Models\ApiModel->insertar('avances', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,183 @@
+CRITICAL - 2023-08-28 14:49:00 --> Unsupported operand types: string + int
+in APPPATH\Controllers\FileUpload.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FileUpload->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 15:17:49 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 296.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-08-28 22:09:03 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'codigos', 3306, '', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\app\app\Models\DocumentosModel.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#4 C:\xampp\htdocs\app\app\Controllers\Listados.php(18): App\Models\DocumentosModel->getdocumentosqr()
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\Listados->documentos()
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\app\app\Models\DocumentosModel.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#3 C:\xampp\htdocs\app\app\Controllers\Listados.php(18): App\Models\DocumentosModel->getdocumentosqr()
+#4 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\Listados->documentos()
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-08-28 22:09:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DocumentosModel.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM documentos_qr where proceso_status=\'Enviado\'')
+ 3 APPPATH\Controllers\Listados.php(18): App\Models\DocumentosModel->getdocumentosqr()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->documentos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 22:10:02 --> Undefined property: stdClass::$storage_local
+in APPPATH\Controllers\Listados.php on line 25.
+ 1 APPPATH\Controllers\Listados.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$storage_local', 'APPPATH\\Controllers\\Listados.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->qrdocumentos('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 22:10:08 --> Undefined property: stdClass::$storage_local
+in APPPATH\Controllers\Listados.php on line 25.
+ 1 APPPATH\Controllers\Listados.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$storage_local', 'APPPATH\\Controllers\\Listados.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->qrdocumentos('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 22:10:15 --> Undefined property: stdClass::$storage_local
+in APPPATH\Controllers\Listados.php on line 25.
+ 1 APPPATH\Controllers\Listados.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$storage_local', 'APPPATH\\Controllers\\Listados.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->qrdocumentos('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 23:13:08 --> mime_content_type(): Argument #1 ($filename) cannot be empty
+in APPPATH\Controllers\Listados.php on line 27.
+ 1 APPPATH\Controllers\Listados.php(27): mime_content_type('C:\\xampp\\htdocs\\app')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->qrdocumentos('FCPATH\\5')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 23:15:37 --> mime_content_type(./uploads/obras/7): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Listados.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_type(./uploads/obras/7): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Listados.php', 27)
+ 2 APPPATH\Controllers\Listados.php(27): mime_content_type('./uploads/obras/7')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->qrdocumentos('21')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 23:17:17 --> mime_content_type(./uploads/obras/7): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Listados.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_type(./uploads/obras/7): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Listados.php', 27)
+ 2 APPPATH\Controllers\Listados.php(27): mime_content_type('./uploads/obras/7')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->qrdocumentos('21')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 23:17:32 --> mime_content_type(uploads/obras/7): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Listados.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_type(uploads/obras/7): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Listados.php', 27)
+ 2 APPPATH\Controllers\Listados.php(27): mime_content_type('uploads/obras/7')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->qrdocumentos('21')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 23:34:55 --> readfile(C:\xampp\htdocs\app\writable\./uploads/obras/7/): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Listados.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\xampp\\htdocs\\app\\writable\\./uploads/obras/7/): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Listados.php', 31)
+ 2 APPPATH\Controllers\Listados.php(31): readfile('FCPATH\\writable\\uploads\\obras\\7')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->qrdocumentos('22')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 23:37:07 --> readfile(C:\xampp\htdocs\app\writable\uploads/obras/7/): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Listados.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\xampp\\htdocs\\app\\writable\\uploads/obras/7/): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Listados.php', 31)
+ 2 APPPATH\Controllers\Listados.php(31): readfile('FCPATH\\writable\\uploads\\obras\\7')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->qrdocumentos('22')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 23:37:35 --> readfile(C:\xampp\htdocs\app\writable\uploads\obras\7): Failed to open stream: Permission denied
+in APPPATH\Controllers\Listados.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\xampp\\htdocs\\app\\writable\\uploads\\obras\\7): Failed to open stream: Permission denied', 'APPPATH\\Controllers\\Listados.php', 31)
+ 2 APPPATH\Controllers\Listados.php(31): readfile('FCPATH\\writable\\uploads\\obras\\7')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->qrdocumentos('22')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 23:42:01 --> readfile(C:\xampp\htdocs\app\writable\./uploads/obras/11/): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Listados.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\xampp\\htdocs\\app\\writable\\./uploads/obras/11/): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Listados.php', 31)
+ 2 APPPATH\Controllers\Listados.php(31): readfile('FCPATH\\writable\\uploads\\obras\\11')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->qrdocumentos('23')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 23:42:22 --> readfile(C:\xampp\htdocs\app\writable\./uploads/obras/11/): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Listados.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\xampp\\htdocs\\app\\writable\\./uploads/obras/11/): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Listados.php', 31)
+ 2 APPPATH\Controllers\Listados.php(31): readfile('FCPATH\\writable\\uploads\\obras\\11')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->qrdocumentos('23')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 23:45:14 --> readfile(C:\xampp\htdocs\app\writable\./uploads/obras/17/): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Listados.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\xampp\\htdocs\\app\\writable\\./uploads/obras/17/): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Listados.php', 31)
+ 2 APPPATH\Controllers\Listados.php(31): readfile('FCPATH\\writable\\uploads\\obras\\17')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->qrdocumentos('24')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 23:45:29 --> readfile(C:\xampp\htdocs\app\writable\./uploads/obras/17/): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Listados.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\xampp\\htdocs\\app\\writable\\./uploads/obras/17/): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Listados.php', 31)
+ 2 APPPATH\Controllers\Listados.php(31): readfile('FCPATH\\writable\\uploads\\obras\\17')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->qrdocumentos('24')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 23:47:08 --> readfile(C:\xampp\htdocs\app\writable\uploads\obras\17): Failed to open stream: Permission denied
+in APPPATH\Controllers\Listados.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\xampp\\htdocs\\app\\writable\\uploads\\obras\\17): Failed to open stream: Permission denied', 'APPPATH\\Controllers\\Listados.php', 31)
+ 2 APPPATH\Controllers\Listados.php(31): readfile('FCPATH\\writable\\uploads\\obras\\17')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->qrdocumentos('24')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 23:55:39 --> readfile(C:\xampp\htdocs\app\writable\uploads\obras\17): Failed to open stream: Permission denied
+in APPPATH\Controllers\Listados.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\xampp\\htdocs\\app\\writable\\uploads\\obras\\17): Failed to open stream: Permission denied', 'APPPATH\\Controllers\\Listados.php', 31)
+ 2 APPPATH\Controllers\Listados.php(31): readfile('FCPATH\\writable\\uploads\\obras\\17')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->qrdocumentos('24')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 23:56:41 --> readfile(C:\xampp\htdocs\app\writable\uploads\obras\17): Failed to open stream: Permission denied
+in APPPATH\Controllers\Listados.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\xampp\\htdocs\\app\\writable\\uploads\\obras\\17): Failed to open stream: Permission denied', 'APPPATH\\Controllers\\Listados.php', 31)
+ 2 APPPATH\Controllers\Listados.php(31): readfile('FCPATH\\writable\\uploads\\obras\\17')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->qrdocumentos('24')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 23:58:36 --> readfile(C:\xampp\htdocs\app\writable\uploads\obras\17): Failed to open stream: Permission denied
+in APPPATH\Controllers\Listados.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\xampp\\htdocs\\app\\writable\\uploads\\obras\\17): Failed to open stream: Permission denied', 'APPPATH\\Controllers\\Listados.php', 31)
+ 2 APPPATH\Controllers\Listados.php(31): readfile('FCPATH\\writable\\uploads\\obras\\17')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Listados->qrdocumentos('24')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listados))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

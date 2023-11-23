@@ -1,0 +1,65 @@
+CRITICAL - 2023-04-20 20:06:20 --> Unsupported operand types: string / string
+in APPPATH/Controllers/Estimacion.php on line 61.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estimacion->register()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimacion))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 20:07:26 --> Unsupported operand types: string / string
+in APPPATH/Controllers/Estimacion.php on line 61.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estimacion->register()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimacion))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 20:07:44 --> Unsupported operand types: string / string
+in APPPATH/Controllers/Estimacion.php on line 61.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estimacion->register()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimacion))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 20:08:31 --> Unsupported operand types: string / string
+in APPPATH/Controllers/Estimacion.php on line 61.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estimacion->register()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimacion))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 20:09:39 --> Unsupported operand types: string / string
+in APPPATH/Controllers/Estimacion.php on line 61.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estimacion->register()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimacion))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 23:34:17 --> Call to a member function getUserAgent() on null
+in APPPATH/Models/HistorialModel.php on line 32.
+ 1 APPPATH/Controllers/Home.php(297): App\Models\HistorialModel->add([])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->prueba()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 23:44:07 --> Call to a member function getVersion() on string
+in APPPATH/Models/HistorialModel.php on line 56.
+ 1 APPPATH/Controllers/Home.php(297): App\Models\HistorialModel->add([...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->prueba()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 23:45:47 --> Call to a member function getVersion() on string
+in APPPATH/Models/HistorialModel.php on line 56.
+ 1 APPPATH/Controllers/Home.php(297): App\Models\HistorialModel->add([...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->prueba()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 23:46:04 --> Call to a member function getPlatform() on string
+in APPPATH/Models/HistorialModel.php on line 57.
+ 1 APPPATH/Controllers/Home.php(297): App\Models\HistorialModel->add([...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->prueba()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 23:50:29 --> Call to a member function getIPAddress() on null
+in APPPATH/Models/HistorialModel.php on line 59.
+ 1 APPPATH/Controllers/Home.php(297): App\Models\HistorialModel->add([...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->prueba()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
