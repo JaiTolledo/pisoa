@@ -1,0 +1,64 @@
+CRITICAL - 2023-11-27 19:40:05 --> Undefined property: stdClass::$importe_autorizado
+in APPPATH\Models\ApiModel.php on line 76.
+ 1 APPPATH\Models\ApiModel.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$importe_autorizado', 'APPPATH\\Models\\ApiModel.php', 76)
+ 2 APPPATH\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-27 21:02:29 --> Undefined property: stdClass::$importe_autorizado
+in APPPATH\Models\ApiModel.php on line 140.
+ 1 APPPATH\Models\ApiModel.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$importe_autorizado', 'APPPATH\\Models\\ApiModel.php', 140)
+ 2 APPPATH\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-27 22:54:42 --> Undefined property: stdClass::$importe_autorizado
+in APPPATH\Models\ApiModel.php on line 140.
+ 1 APPPATH\Models\ApiModel.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$importe_autorizado', 'APPPATH\\Models\\ApiModel.php', 140)
+ 2 APPPATH\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-27 23:37:21 --> mysqli_sql_exception: Unknown column 'obra' in 'where clause' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT importe_...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT importe_...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT importe_...')
+#3 C:\xampp\htdocs\app\app\Models\ApiModel.php(143): CodeIgniter\Database\BaseConnection->query('SELECT importe_...')
+#4 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-27 23:37:21 --> Unknown column 'obra' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ApiModel.php(143): CodeIgniter\Database\BaseConnection->query('SELECT importe_autorizado FROM universo where obra=\'1111\'')
+ 2 APPPATH\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-27 23:56:06 --> mysqli_sql_exception: Unknown column 'obra' in 'where clause' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT importe_...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT importe_...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT importe_...')
+#3 C:\xampp\htdocs\app\app\Models\ApiModel.php(144): CodeIgniter\Database\BaseConnection->query('SELECT importe_...')
+#4 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-27 23:56:06 --> Unknown column 'obra' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ApiModel.php(144): CodeIgniter\Database\BaseConnection->query('SELECT importe_autorizado FROM universo where obra=\'144\'')
+ 2 APPPATH\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

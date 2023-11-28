@@ -1,0 +1,8 @@
+CRITICAL - 2023-11-25 00:03:33 --> Undefined property: stdClass::$importe_autorizado
+in APPPATH\Models\ApiModel.php on line 76.
+ 1 APPPATH\Models\ApiModel.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$importe_autorizado', 'APPPATH\\Models\\ApiModel.php', 76)
+ 2 APPPATH\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

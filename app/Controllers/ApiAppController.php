@@ -139,7 +139,7 @@ class ApiAppController  extends Controller
             return $this->respond($data);
         }
     }
-
+    
 //************************************ Función para crear un avance de partidas **************** */
     public function create()
     {

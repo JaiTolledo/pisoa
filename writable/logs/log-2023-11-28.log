@@ -1,0 +1,241 @@
+ERROR - 2023-11-28 17:20:09 --> mysqli_sql_exception: Table 'app_movil.obra_componente' doesn't exist in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT monto FR...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT monto FR...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT monto FR...')
+#3 C:\xampp\htdocs\app\app\Models\ApiModel.php(63): CodeIgniter\Database\BaseConnection->query('SELECT monto FR...')
+#4 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-28 17:20:09 --> Table 'app_movil.obra_componente' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ApiModel.php(63): CodeIgniter\Database\BaseConnection->query('SELECT monto FROM obra_componente where componente_id=\'144\'')
+ 2 APPPATH\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-28 17:20:26 --> mysqli_sql_exception: Table 'app_movil.obra_componente' doesn't exist in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT monto FR...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT monto FR...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT monto FR...')
+#3 C:\xampp\htdocs\app\app\Models\ApiModel.php(63): CodeIgniter\Database\BaseConnection->query('SELECT monto FR...')
+#4 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-28 17:20:26 --> Table 'app_movil.obra_componente' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ApiModel.php(63): CodeIgniter\Database\BaseConnection->query('SELECT monto FROM obra_componente where componente_id=\'144\'')
+ 2 APPPATH\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-28 17:21:22 --> mysqli_sql_exception: Column 'avance_importe' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(146): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-28 17:21:22 --> Column 'avance_importe' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_partidas` (`avance`, `obra`, `partida`, `ejecutado`, `avance_componente`, `avance_fisico`, `avance_importe`) VALUES (:avance:, :obra:, :partida:, :ejecutado:, :avance_componente:, :avance_fisico:, :avance_importe:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(146): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 17:29:44 --> Unsupported operand types: stdClass / int
+in APPPATH\Models\ApiModel.php on line 136.
+ 1 APPPATH\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 17:30:54 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('INSERT INTO `avance_partidas` (`avance`, `obra`, `partida`, `ejecutado`, `avance_componente`, `avance_fisico`, `avance_importe`) VALUES (:avance:, :obra:, :partida:, :ejecutado:, :avance_componente:, :avance_fisico:, :avance_importe:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `avance_partidas` (`avance`, `obra`, `partida`, `ejecutado`, `avance_componente`, `avance_fisico`, `avance_importe`) VALUES (:avance:, :obra:, :partida:, :ejecutado:, :avance_componente:, :avance_fisico:, :avance_importe:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_partidas` (`avance`, `obra`, `partida`, `ejecutado`, `avance_componente`, `avance_fisico`, `avance_importe`) VALUES (:avance:, :obra:, :partida:, :ejecutado:, :avance_componente:, :avance_fisico:, :avance_importe:)', [...], false)
+ 6 APPPATH\Models\ApiModel.php(151): CodeIgniter\Database\BaseBuilder->insert([...])
+ 7 APPPATH\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 17:32:00 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('INSERT INTO `avance_partidas` (`avance`, `obra`, `partida`, `ejecutado`, `avance_componente`, `avance_fisico`, `avance_importe`) VALUES (:avance:, :obra:, :partida:, :ejecutado:, :avance_componente:, :avance_fisico:, :avance_importe:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `avance_partidas` (`avance`, `obra`, `partida`, `ejecutado`, `avance_componente`, `avance_fisico`, `avance_importe`) VALUES (:avance:, :obra:, :partida:, :ejecutado:, :avance_componente:, :avance_fisico:, :avance_importe:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_partidas` (`avance`, `obra`, `partida`, `ejecutado`, `avance_componente`, `avance_fisico`, `avance_importe`) VALUES (:avance:, :obra:, :partida:, :ejecutado:, :avance_componente:, :avance_fisico:, :avance_importe:)', [...], false)
+ 6 APPPATH\Models\ApiModel.php(151): CodeIgniter\Database\BaseBuilder->insert([...])
+ 7 APPPATH\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 17:32:47 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('INSERT INTO `avance_partidas` (`avance`, `obra`, `partida`, `ejecutado`, `avance_componente`, `avance_fisico`, `avance_importe`) VALUES (:avance:, :obra:, :partida:, :ejecutado:, :avance_componente:, :avance_fisico:, :avance_importe:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `avance_partidas` (`avance`, `obra`, `partida`, `ejecutado`, `avance_componente`, `avance_fisico`, `avance_importe`) VALUES (:avance:, :obra:, :partida:, :ejecutado:, :avance_componente:, :avance_fisico:, :avance_importe:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_partidas` (`avance`, `obra`, `partida`, `ejecutado`, `avance_componente`, `avance_fisico`, `avance_importe`) VALUES (:avance:, :obra:, :partida:, :ejecutado:, :avance_componente:, :avance_fisico:, :avance_importe:)', [...], false)
+ 6 APPPATH\Models\ApiModel.php(151): CodeIgniter\Database\BaseBuilder->insert([...])
+ 7 APPPATH\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-28 18:33:48 --> mysqli_sql_exception: Unknown column 'ejecutado' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(138): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-28 18:33:48 --> Unknown column 'ejecutado' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_partidas` (`avance`, `obra`, `partida`, `ejecutado`, `avance_componente`, `avance_fisico`, `avance_importe`) VALUES (:avance:, :obra:, :partida:, :ejecutado:, :avance_componente:, :avance_fisico:, :avance_importe:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(138): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-28 18:34:43 --> mysqli_sql_exception: Unknown column 'ejecutado' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ApiModel.php(138): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-28 18:34:43 --> Unknown column 'ejecutado' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avance_partidas` (`avance`, `obra`, `partida`, `ejecutado`, `avance_componente`, `avance_fisico`, `avance_importe`) VALUES (:avance:, :obra:, :partida:, :ejecutado:, :avance_componente:, :avance_fisico:, :avance_importe:)', [...], false)
+ 2 APPPATH\Models\ApiModel.php(138): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 18:38:57 --> Undefined property: stdClass::$avance_fisico
+in APPPATH\Models\ApiModel.php on line 123.
+ 1 APPPATH\Models\ApiModel.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$avance_fisico', 'APPPATH\\Models\\ApiModel.php', 123)
+ 2 APPPATH\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 18:40:16 --> Undefined property: stdClass::$avance_fisico
+in APPPATH\Models\ApiModel.php on line 123.
+ 1 APPPATH\Models\ApiModel.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$avance_fisico', 'APPPATH\\Models\\ApiModel.php', 123)
+ 2 APPPATH\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 18:42:16 --> Undefined property: stdClass::$avance_componente
+in APPPATH\Models\ApiModel.php on line 151.
+ 1 APPPATH\Models\ApiModel.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$avance_componente', 'APPPATH\\Models\\ApiModel.php', 151)
+ 2 APPPATH\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 18:53:55 --> Undefined property: stdClass::$id
+in APPPATH\Models\ApiModel.php on line 151.
+ 1 APPPATH\Models\ApiModel.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Models\\ApiModel.php', 151)
+ 2 APPPATH\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 18:56:49 --> Undefined property: stdClass::$componente_id
+in APPPATH\Models\ApiModel.php on line 151.
+ 1 APPPATH\Models\ApiModel.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$componente_id', 'APPPATH\\Models\\ApiModel.php', 151)
+ 2 APPPATH\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 19:00:19 --> Undefined property: stdClass::$total_importe
+in APPPATH\Models\ApiModel.php on line 159.
+ 1 APPPATH\Models\ApiModel.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$total_importe', 'APPPATH\\Models\\ApiModel.php', 159)
+ 2 APPPATH\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 19:07:04 --> Division by zero
+in APPPATH\Models\ApiModel.php on line 163.
+ 1 APPPATH\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 19:07:39 --> Division by zero
+in APPPATH\Models\ApiModel.php on line 163.
+ 1 APPPATH\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 19:49:47 --> Attempt to read property "insert_id" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 577.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "insert_id" on bool', 'SYSTEMPATH\\Database\\MySQLi\\Connection.php', 577)
+ 2 APPPATH\Models\ApiModel.php(58): CodeIgniter\Database\MySQLi\Connection->insertID()
+ 3 APPPATH\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 19:50:39 --> Attempt to read property "insert_id" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 577.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "insert_id" on bool', 'SYSTEMPATH\\Database\\MySQLi\\Connection.php', 577)
+ 2 APPPATH\Models\ApiModel.php(59): CodeIgniter\Database\MySQLi\Connection->insertID()
+ 3 APPPATH\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 19:54:10 --> Attempt to read property "insert_id" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 577.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "insert_id" on bool', 'SYSTEMPATH\\Database\\MySQLi\\Connection.php', 577)
+ 2 APPPATH\Models\ApiModel.php(59): CodeIgniter\Database\MySQLi\Connection->insertID()
+ 3 APPPATH\Controllers\ApiAppController.php(147): App\Models\ApiModel->insertar(Object(stdClass))
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiAppController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
