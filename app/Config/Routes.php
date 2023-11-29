@@ -13,6 +13,7 @@ $routes->setDefaultController('Capturas');
 $routes->setDefaultController('ApiAppController');
 $routes->setDefaultController('SiteController');
 $routes->setDefaultController('BuscadoresController');
+$routes->setDefaultController('ComponentesPartidasController');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
@@ -63,7 +64,7 @@ $routes->post('create', "ApiAppController::create");
 //$routes->match(['get', 'post'], "login", "ApiAppController::login");
 $routes->post('login', 'ApiAppController::loginUser');
 $routes->post('blog', 'ApiAppController::uploadfile');
-
+$routes->get('componente/agregar_componente', 'ComponentesPartidasController::Agregar_Componente');
 //$routes->post('user-login','ApiAppController::userLogin');
 
 
