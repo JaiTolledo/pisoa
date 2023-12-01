@@ -65,6 +65,10 @@ $routes->post('create', "ApiAppController::create");
 $routes->post('login', 'ApiAppController::loginUser');
 $routes->post('blog', 'ApiAppController::uploadfile');
 $routes->get('componente/agregar_componente', 'ComponentesPartidasController::Agregar_Componente');
+//$routes->get('componente/agregado', 'ComponentesPartidasController::registrar');
+$routes->match(['get', 'post'], 'componente/agregado', 'ComponentesPartidasController::registrar');
+
+
 //$routes->post('user-login','ApiAppController::userLogin');
 
 

@@ -1,0 +1,53 @@
+CRITICAL - 2023-11-29 23:32:24 --> Undefined variable $data
+in APPPATH\Views\componente\agregar.php on line 15.
+ 1 APPPATH\Views\componente\agregar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\componente\\agregar.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\componente\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('componente/agregar', [], true)
+ 5 APPPATH\Controllers\ComponentesPartidasController.php(27): view('componente/agregar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ComponentesPartidasController->Agregar_Componente()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ComponentesPartidasController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 23:44:19 --> Undefined variable $id
+in APPPATH\Views\componente\agregar.php on line 158.
+ 1 APPPATH\Views\componente\agregar.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\componente\\agregar.php', 158)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\componente\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('componente/agregar', [], true)
+ 5 APPPATH\Controllers\ComponentesPartidasController.php(27): view('componente/agregar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ComponentesPartidasController->Agregar_Componente()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ComponentesPartidasController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 23:44:48 --> Undefined variable $m
+in APPPATH\Views\componente\agregar.php on line 158.
+ 1 APPPATH\Views\componente\agregar.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $m', 'APPPATH\\Views\\componente\\agregar.php', 158)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\componente\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('componente/agregar', [], true)
+ 5 APPPATH\Controllers\ComponentesPartidasController.php(27): view('componente/agregar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ComponentesPartidasController->Agregar_Componente()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ComponentesPartidasController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-29 23:45:08 --> mysqli_sql_exception: Table 'app_movil.documentos_qr' doesn't exist in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM d...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM d...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM d...')
+#3 C:\xampp\htdocs\app\app\Models\DocumentosModel.php(19): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#4 C:\xampp\htdocs\app\app\Controllers\FileUpload.php(115): App\Models\DocumentosModel->getdocumentosejecutora()
+#5 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\FileUpload->documentosejecutora()
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-29 23:45:08 --> Table 'app_movil.documentos_qr' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\DocumentosModel.php(19): CodeIgniter\Database\BaseConnection->query('SELECT * FROM documentos_qr where proceso_status=\'Ilegible\'')
+ 2 APPPATH\Controllers\FileUpload.php(115): App\Models\DocumentosModel->getdocumentosejecutora()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FileUpload->documentosejecutora()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -212,6 +212,7 @@ table tbody tr:nth-child(even) {
     </div>
   </div>
 </div>
+
 </div>
 </div>
 <?= view('template_footer'); ?>

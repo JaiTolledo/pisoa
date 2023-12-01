@@ -1,0 +1,53 @@
+CRITICAL - 2023-11-30 17:29:20 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\ComponentesPartidasController.php(41): CodeIgniter\Model->__call('insertar_obra_componente', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ComponentesPartidasController->registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ComponentesPartidasController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 17:34:04 --> mysqli_sql_exception: Unknown column 'clave' in 'field list' in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ob...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ob...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ob...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ob...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ComponentesPartidasModel.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ComponentesPartidasController.php(43): App\Models\ComponentesPartidasModel->insertar_obra_componente(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ComponentesPartidasController->registrar()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ComponentesPartidasController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-30 17:34:04 --> Unknown column 'clave' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `obra_componentes` (`obra`, `clave`, `nombre`, `monto`) VALUES (:obra:, :clave:, :nombre:, :monto:)', [...], false)
+ 2 APPPATH\Models\ComponentesPartidasModel.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ComponentesPartidasController.php(43): App\Models\ComponentesPartidasModel->insertar_obra_componente([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ComponentesPartidasController->registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ComponentesPartidasController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 17:53:55 --> mysqli_sql_exception: Column 'componente_clave' cannot be null in C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ob...', 0)
+#1 C:\xampp\htdocs\app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ob...')
+#2 C:\xampp\htdocs\app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ob...')
+#3 C:\xampp\htdocs\app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ob...', Array, false)
+#4 C:\xampp\htdocs\app\app\Models\ComponentesPartidasModel.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\app\app\Controllers\ComponentesPartidasController.php(43): App\Models\ComponentesPartidasModel->insertar_obra_componente(Array)
+#6 C:\xampp\htdocs\app\system\CodeIgniter.php(934): App\Controllers\ComponentesPartidasController->registrar()
+#7 C:\xampp\htdocs\app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ComponentesPartidasController))
+#8 C:\xampp\htdocs\app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-30 17:53:55 --> Column 'componente_clave' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `obra_componentes` (`obra`, `componente_clave`, `componente_nombre`, `componente_monto`) VALUES (:obra:, :componente_clave:, :componente_nombre:, :componente_monto:)', [...], false)
+ 2 APPPATH\Models\ComponentesPartidasModel.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ComponentesPartidasController.php(43): App\Models\ComponentesPartidasModel->insertar_obra_componente([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ComponentesPartidasController->registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ComponentesPartidasController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
